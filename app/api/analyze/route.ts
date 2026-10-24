@@ -5,7 +5,7 @@ import { cleanAudience, cleanPitch, cleanWindow, jsonError, rateLimited } from "
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
-export const maxDuration = 60;
+export const maxDuration = 120;
 
 export async function POST(req: Request) {
   if (rateLimited(req, 10)) return jsonError("Too many requests. Try again in a few minutes.", 429);
