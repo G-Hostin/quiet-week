@@ -1,0 +1,587 @@
+/* The /check tool: header, stepper, step panels, form, confirm, agent progress */
+.tool {
+  padding-top: clamp(24px, 4vw, 44px);
+}
+
+.tool-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px 32px;
+  margin-bottom: 22px;
+}
+
+.tool-head h1 {
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+  letter-spacing: -0.03em;
+}
+
+/* Stepper: progress, drawn in ink (not the action colour) */
+.stepper {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.stepper-i {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.92rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.stepper-i + .stepper-i::before {
+  content: "";
+  width: 22px;
+  height: 1.5px;
+  background: var(--line);
+  margin-right: 2px;
+}
+
+.stepper-n {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1.5px solid var(--line);
+  font-size: 0.82rem;
+  font-weight: 700;
+  background: var(--surface);
+  flex: none;
+}
+
+.stepper-i.is-current {
+  color: var(--ink);
+  font-weight: 650;
+}
+
+.stepper-i.is-current .stepper-n {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
+}
+
+.stepper-i.is-done {
+  color: var(--ink-2);
+}
+
+.stepper-i.is-done .stepper-n {
+  border-color: var(--ink);
+  color: var(--ink);
+}
+
+.tool-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.tool-grid.has-aside {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 320px);
+}
+
+.tool-main {
+  display: grid;
+  gap: 14px;
+  min-width: 0;
+}
+
+.tool-aside {
+  display: grid;
+  gap: 8px;
+  padding-top: 4px;
+}
+
+.tool-aside h2 {
+  font-size: 1.05rem;
+}
+
+.tool-aside .ex-list {
+  margin-top: 6px;
+}
+
+/* A step */
+.stage.panel {
+  padding: clamp(18px, 3vw, 32px);
+  display: grid;
+  gap: 24px;
+}
+
+.stage-head {
+  display: grid;
+  gap: 6px;
+}
+
+.stage-head h2 {
+  font-size: clamp(1.3rem, 2.4vw, 1.6rem);
+  letter-spacing: -0.025em;
+}
+
+.stage-head p {
+  color: var(--ink-2);
+  max-width: 62ch;
+}
+
+.stage-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  padding-top: 4px;
+}
+
+.hint {
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+/* Form */
+.fgroup {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+}
+
+.flabel {
+  padding: 0;
+  margin-bottom: 2px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.field {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+}
+
+.field-l {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--ink-2);
+}
+
+.req,
+.opt {
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.field input,
+.field select {
+  width: 100%;
+  min-height: 46px;
+  padding: 10px 12px;
+  border: 1.5px solid var(--line);
+  border-radius: var(--radius-sm);
+  background-color: var(--surface);
+  color: var(--ink);
+  transition: border-color 140ms var(--ease-out), box-shadow 140ms var(--ease-out);
+}
+
+.field input::placeholder {
+  color: #7a8190;
+}
+
+.field input:hover,
+.field select:hover {
+  border-color: #b8bfcb;
+}
+
+.field input:focus,
+.field select:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.field input[aria-invalid="true"] {
+  border-color: var(--clash);
+}
+
+.titles {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.window {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 220px));
+  gap: 10px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: minmax(0, 0.7fr) minmax(0, 1.3fr);
+  gap: 10px;
+}
+
+.tool-notice {
+  background: var(--overlap-soft);
+}
+
+/* Confirm */
+.match {
+  border: 0;
+  border-top: 1px solid var(--line-soft);
+  padding: 18px 0 0;
+  margin: 0;
+  min-width: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.match-l {
+  float: left;
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.match-l + * {
+  clear: left;
+}
+
+.match-note {
+  font-size: 0.9rem;
+  color: var(--ink-2);
+}
+
+.match-warn {
+  font-size: 0.9rem;
+  color: var(--clash-text);
+  font-weight: 600;
+}
+
+.cands {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr));
+  gap: 8px;
+}
+
+/* Selectable option: cobalt like every control */
+.cand {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 64px;
+  padding: 9px 38px 9px 10px;
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  border: 1.5px solid var(--line);
+  cursor: pointer;
+  min-width: 0;
+  transition: border-color 140ms var(--ease-out), background-color 140ms var(--ease-out);
+}
+
+.cand:hover {
+  border-color: var(--accent);
+}
+
+.cand.is-on {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+
+.cand-input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.cand:has(.cand-input:focus-visible) {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.cand img,
+.cand .cover-blank {
+  width: 34px;
+  height: 44px;
+  border-radius: 4px;
+  object-fit: cover;
+  flex: none;
+  background: var(--open-soft);
+}
+
+.cover-blank {
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  color: var(--muted);
+  background: var(--open-soft);
+}
+
+.cand-text {
+  display: grid;
+  min-width: 0;
+}
+
+.cand-name {
+  font-weight: 650;
+  overflow-wrap: anywhere;
+  line-height: 1.3;
+}
+
+.cand-meta {
+  font-size: 0.8rem;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+
+.cand-tick {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  translate: 0 -50%;
+  display: grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1.5px solid var(--line);
+  background: var(--surface);
+}
+
+.cand.is-on .cand-tick {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.cand-skip {
+  background: var(--bg);
+}
+
+/* Collapsible "more" (agent journal under the confirm step) */
+.more {
+  border-top: 1px solid var(--line-soft);
+  padding-top: 14px;
+}
+
+.more summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 600;
+  width: fit-content;
+}
+
+.more summary:hover {
+  color: var(--accent-hover);
+}
+
+.more[open] summary {
+  margin-bottom: 10px;
+}
+
+/* Agent progress */
+.phases {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.phase {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--muted);
+}
+
+.phase.is-now {
+  color: var(--ink);
+  font-weight: 650;
+}
+
+.phase.is-done {
+  color: var(--ink-2);
+}
+
+.phase-i {
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1.5px solid var(--line);
+  flex: none;
+}
+
+.phase.is-done .phase-i {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
+}
+
+.phase.is-now .phase-i {
+  border-color: var(--ink);
+}
+
+.spin {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid var(--line);
+  border-top-color: var(--ink);
+  animation: spin 800ms linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .spin {
+    border-color: var(--ink);
+  }
+}
+
+.log {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+  max-height: 340px;
+  overflow: auto;
+}
+
+.log-title {
+  font-weight: 650;
+  font-size: 0.9rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 8px;
+}
+
+.log-title .muted {
+  font-weight: 400;
+}
+
+/* Step list (agent journal) */
+.steps {
+  list-style: none;
+  display: grid;
+  gap: 2px;
+  font-size: 0.875rem;
+}
+
+.steps > .step {
+  display: grid;
+  grid-template-columns: 42px 66px minmax(0, 1fr);
+  gap: 10px;
+  padding: 5px 8px;
+  border-radius: 6px;
+}
+
+.steps > .step:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.steps.is-live > .step:last-child {
+  animation: step-in 220ms var(--ease-out);
+}
+
+@keyframes step-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.step-t {
+  color: var(--muted);
+  text-align: right;
+}
+
+.step-k {
+  font-weight: 650;
+  color: var(--ink-2);
+}
+
+.step-swap .step-k {
+  color: var(--overlap-text);
+}
+
+.step-warn .step-k {
+  color: var(--clash-text);
+}
+
+.step-write .step-k,
+.step-done .step-k {
+  color: var(--clear-text);
+}
+
+.step-x {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.step-d {
+  display: block;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+@media (max-width: 960px) {
+  .tool-grid.has-aside {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 720px) {
+  .titles,
+  .about {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .window {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .tool-head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 560px) {
+  .stepper-i:not(.is-current) .stepper-l {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+  .stepper-i + .stepper-i::before {
+    width: 16px;
+  }
+  .steps > .step {
+    grid-template-columns: 38px minmax(0, 1fr);
+  }
+  .step-k {
+    display: none;
+  }
+  .stage-actions .btn {
+    flex: 1 1 100%;
+  }
+}

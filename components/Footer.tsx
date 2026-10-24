@@ -1,14 +1,16 @@
 export default function Footer() {
   return (
     <footer className="foot">
-      <div className="wrap">
+      <div className="wrap foot-in">
         <p>
-          Quiet Week compares audiences with the Qloo Taste AI API. An affinity score says how much two audiences like
-          the same things; it is not a share of players and not a sales forecast.
+          Quiet Week compares audiences with the Qloo Taste AI API; a Gemini agent finds your games and writes a short
+          summary. Release dates come from public announcements, each with its source. Cover images from Qloo.
         </p>
         <p>
-          Release dates are entered by hand from public announcements, each with its source. Dates can move. Game and
-          film titles are cited as facts; images come from Qloo. Open source under the MIT licence.
+          Open source, MIT licence.{" "}
+          <a href="https://github.com/G-Hostin/quiet-week" target="_blank" rel="noopener noreferrer">
+            Code on GitHub
+          </a>
         </p>
       </div>
     </footer>

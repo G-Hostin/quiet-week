@@ -14,14 +14,26 @@ shares your audience.
 
 ## What it does
 
-1. **Your game.** Type one sentence and 1 to 3 well-known games whose players look like yours. An AI agent finds them
-   in Qloo, fixes typos, checks Qloo has audience data for each, and asks you to confirm (with Qloo's cover images).
-2. **The calendar.** 21 weeks, one bar each. Height and colour show how much that week's big releases (games *and*
-   films) share your players. Click a week to see each release, its score, its stand-in, and the source of its date.
-3. **The verdict.** Three weeks that look quiet for you, two to avoid, one plain sentence each, and a box answering
-   "Should you dodge GTA VI?" with the number.
-4. **The evidence.** Every number links to the exact Qloo call (entity ids and parameters); every date links to its
-   public source. Limits are written on screen.
+The home page (`/`) says what Quiet Week is, who it is for and how it works. The tool lives at `/check`, in three
+numbered steps:
+
+1. **Your game.** Name 1 to 3 well-known games whose players look like yours, and your launch window. No game yet?
+   Open one of the ready-made examples from the same screen.
+2. **Confirm the matches.** An AI agent finds the games in Qloo, fixes typos and checks Qloo has audience data for
+   each one; you confirm each match (with Qloo's cover images) before anything is measured. A plain checklist and a
+   live log show what the agent is doing.
+3. **Your weeks.** The answer comes first: one sentence ("Move away from GTA VI's launch" or "No need to dodge GTA VI"),
+   the GTA VI player overlap on its 0 to 1 scale, the three best weeks and the two to avoid. Then:
+   - **Week by week:** 21 weeks, one bar each; height and colour show how much that week's big releases (games *and*
+     films) share your players. Click a bar to see each release, its score, the earlier game it was measured through,
+     and the source of its date.
+   - **How to read this:** the 0 to 1 score, the colour rule and the limits, explained once.
+   - **Sources & method:** every release with its score and date source, the exact Qloo calls (entity ids and
+     parameters), and every step the agent took.
+
+A bar at the top of the result always says what you are looking at (an example or your game, and its audience).
+Results have their own URL (`/check?example=action-western`); your own result is kept in the tab, so reload and the
+browser's back button work.
 
 Three examples are precomputed and load instantly: *cozy farming game* (like Stardew Valley), *action western*
 (like Red Dead Redemption 2), *metroidvania* (like Hollow Knight).
@@ -98,7 +110,8 @@ check date. Nothing is scraped. Edit the three source files in `data/` and run `
 cp .env.example .env.local     # then fill QLOO_API_KEY and GEMINI_API_KEY
 npm install
 npm run dev                    # http://localhost:3410
-npm test                       # unit tests: colour rule, calendar, week picks, stand-ins, agent text check
+npm test                       # unit tests: colour rule, calendar, week picks, stand-ins, agent text check, result wording
+node scripts/ux-shots.mjs http://localhost:3410   # screenshots of every screen + layout checks (examples only, no API call)
 npm run check:live             # runs the 3 examples end to end against the real APIs
 npm run precompute             # regenerates data/examples/*.json
 ```
