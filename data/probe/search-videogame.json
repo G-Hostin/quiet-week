@@ -1,0 +1,392 @@
+{
+ "Football Manager 2023": [
+  {
+   "id": "C13DDCEF-619C-4856-B369-63208812BA60",
+   "name": "Football Manager 2023",
+   "date": "2022-11-08",
+   "img": false,
+   "pop": 0.9649788593293721
+  },
+  {
+   "id": "61984077-C126-4A1D-96D2-0CF1D87703BB",
+   "name": "Football Manager 2024",
+   "date": "2023-11-06",
+   "img": false,
+   "pop": 0.9516194206439156
+  },
+  {
+   "id": "42564989-ED32-46A8-8507-C36DB31EAB4A",
+   "name": "Football Manager Touch 2018",
+   "date": "2018-04-13",
+   "img": false,
+   "pop": 0.9784209824163909
+  },
+  {
+   "id": "23B06CEF-4BEC-43DD-AF81-C880AEB60A22",
+   "name": "Tennis Manager 2023",
+   "date": "2023-05-25",
+   "img": true,
+   "pop": 0.9773054188460166
+  }
+ ],
+ "Football Manager 2022": [
+  {
+   "id": "59F2CAF2-C190-4E4E-A2F5-F71C2D52D4C9",
+   "name": "Football Manager 2022",
+   "date": "2021-11-09",
+   "img": false,
+   "pop": 0.9712993406269906
+  },
+  {
+   "id": "C13DDCEF-619C-4856-B369-63208812BA60",
+   "name": "Football Manager 2023",
+   "date": "2022-11-08",
+   "img": false,
+   "pop": 0.9649788593293721
+  },
+  {
+   "id": "42564989-ED32-46A8-8507-C36DB31EAB4A",
+   "name": "Football Manager Touch 2018",
+   "date": "2018-04-13",
+   "img": false,
+   "pop": 0.9784209824163909
+  },
+  {
+   "id": "BF93F0D6-5C0D-447A-A994-28DF5449681F",
+   "name": "Football Manager 2015",
+   "date": "2014-11-07",
+   "img": false,
+   "pop": 0.9765214360212625
+  }
+ ],
+ "Dragon Quest XI": [
+  {
+   "id": "DB84F0D6-EF20-4779-9F9E-B5D1B02116B7",
+   "name": "Dragon Quest XI: Echoes of an Elusive Age",
+   "date": "2018-09-04",
+   "img": true,
+   "pop": 0.9463235284034608
+  },
+  {
+   "id": "6D21144E-6F5E-42BB-8636-A41A9C9904C8",
+   "name": "Dragon Quest XII: The Flames of Fate",
+   "date": "2020-03-31",
+   "img": true,
+   "pop": 0.9404587962342115
+  },
+  {
+   "id": "AD350417-51E9-4D4D-84C6-20E35B05BE0F",
+   "name": "Bruce Lee: Quest of the Dragon",
+   "date": "2002-07-01",
+   "img": false,
+   "pop": 0.9788214346752648
+  },
+  {
+   "id": "2D6F184F-45C9-45F0-918A-A1C9066CBE43",
+   "name": "Dragon Quest Tact",
+   "date": "2021-01-27",
+   "img": true,
+   "pop": 0.9777194768947762
+  }
+ ],
+ "Monster Hunter: World": [
+  {
+   "id": "CD994813-8FCF-45C8-9EA7-0BF6FC379107",
+   "name": "Monster Hunter: World",
+   "date": "2018-01-26",
+   "img": true,
+   "pop": 0.9721370995932095
+  },
+  {
+   "id": "17D64D12-C98D-4F1A-95B7-B919249158EF",
+   "name": "Monster Hunter: World - Iceborne",
+   "date": "2019-09-06",
+   "img": true,
+   "pop": 0.9568029997473735
+  },
+  {
+   "id": "80AFA60A-447E-4020-8ABC-A09D8AB5EDCE",
+   "name": "Monster Hunter Rise: Sunbreak",
+   "date": "2022-06-30",
+   "img": true,
+   "pop": 0.9773992818393101
+  },
+  {
+   "id": "4F1AC166-C7AE-47CC-B3A4-E9542296A175",
+   "name": "Monster Hunter Generations Ultimate",
+   "date": "2018-08-28",
+   "img": true,
+   "pop": 0.9768586190236912
+  }
+ ],
+ "Monster Hunter Rise": [
+  {
+   "id": "7296523F-E203-4F2E-AF93-C7AA35BFA09D",
+   "name": "Monster Hunter Rise",
+   "date": "2021-03-26",
+   "img": true,
+   "pop": 0.9560014144105562
+  },
+  {
+   "id": "80AFA60A-447E-4020-8ABC-A09D8AB5EDCE",
+   "name": "Monster Hunter Rise: Sunbreak",
+   "date": "2022-06-30",
+   "img": true,
+   "pop": 0.9773992818393101
+  },
+  {
+   "id": "4F1AC166-C7AE-47CC-B3A4-E9542296A175",
+   "name": "Monster Hunter Generations Ultimate",
+   "date": "2018-08-28",
+   "img": true,
+   "pop": 0.9768586190236912
+  },
+  {
+   "id": "FF20F224-C3AA-485D-9029-CF0C900C4340",
+   "name": "Monster Hunter 4 Ultimate",
+   "date": "2015-02-13",
+   "img": true,
+   "pop": 0.9744844116249758
+  }
+ ],
+ "Professor Layton and the Unwound Future": [
+  {
+   "id": "FE259261-4C0F-4948-8F19-6C4645F696C8",
+   "name": "Professor Layton and the Unwound Future",
+   "date": "2010-09-12",
+   "img": true,
+   "pop": 0.9438322764081897
+  },
+  {
+   "id": "799A6E7F-860A-4DA1-B789-5913E38F4DF5",
+   "name": "Professor Layton and the Last Specter",
+   "date": "2011-10-18",
+   "img": true,
+   "pop": 0.9717641836035433
+  },
+  {
+   "id": "E81A8E1A-DA1A-4AB6-B0FC-120C56F5E890",
+   "name": "Professor Layton and the Curious Village",
+   "date": "2008-02-10",
+   "img": false,
+   "pop": 0.9690921027795011
+  },
+  {
+   "id": "2486EFF9-7D35-4BBB-835E-17AFDD5CC424",
+   "name": "Professor Layton and the Miracle Mask",
+   "date": "2012-10-28",
+   "img": true,
+   "pop": 0.9682656077074059
+  }
+ ],
+ "Professor Layton and the Diabolical Box": [
+  {
+   "id": "9B52191B-B462-422F-B589-FB481B7B0BA9",
+   "name": "Professor Layton and the Diabolical Box",
+   "date": "2009-08-24",
+   "img": false,
+   "pop": 0.9492603027070733
+  },
+  {
+   "id": "799A6E7F-860A-4DA1-B789-5913E38F4DF5",
+   "name": "Professor Layton and the Last Specter",
+   "date": "2011-10-18",
+   "img": true,
+   "pop": 0.9717641836035433
+  },
+  {
+   "id": "E81A8E1A-DA1A-4AB6-B0FC-120C56F5E890",
+   "name": "Professor Layton and the Curious Village",
+   "date": "2008-02-10",
+   "img": false,
+   "pop": 0.9690921027795011
+  },
+  {
+   "id": "2486EFF9-7D35-4BBB-835E-17AFDD5CC424",
+   "name": "Professor Layton and the Miracle Mask",
+   "date": "2012-10-28",
+   "img": true,
+   "pop": 0.9682656077074059
+  }
+ ],
+ "Nioh 2": [
+  {
+   "id": "24BA864F-5394-4E98-9762-CEA9B736AD4B",
+   "name": "Nioh 2",
+   "date": "2020-03-13",
+   "img": true,
+   "pop": 0.9507447565545006
+  },
+  {
+   "id": "93252FA0-6AFB-4F92-BF2F-8947995B4117",
+   "name": "Nioh 2 Remastered: The Complete Edition",
+   "date": "2021-02-05",
+   "img": true,
+   "pop": 0.9611684437452744
+  },
+  {
+   "id": "DDB51A16-C253-4545-8313-1BE1FCA25017",
+   "name": "World Series Baseball 2K2",
+   "date": "2016-03-22",
+   "img": false,
+   "pop": 0.9799871906031041
+  },
+  {
+   "id": "201A8B2D-EE7C-4733-9487-E3067A49CE73",
+   "name": "Endless Space 2",
+   "date": "2017-05-18",
+   "img": true,
+   "pop": 0.9799751456094059
+  }
+ ],
+ "Trine 4: The Nightmare Prince": [
+  {
+   "id": "13F16103-93F8-43EA-ABFD-D1B772C634A7",
+   "name": "Trine 4: The Nightmare Prince",
+   "date": "2019-10-08",
+   "img": true,
+   "pop": 0.9624478032169651
+  },
+  {
+   "id": "FA6A1BBB-99A0-438C-B0C6-20E378A48C8F",
+   "name": "Streets of Rage 4: Mr. X Nightmare",
+   "date": "2021-07-15",
+   "img": false,
+   "pop": 0.9738915015423479
+  },
+  {
+   "id": "B156B8AE-E654-4B88-A693-A0C49F6BDDCE",
+   "name": "Nightmare x The Motion 4 Set",
+   "date": "2024-04-26",
+   "img": false,
+   "pop": 0.959153449014885
+  },
+  {
+   "id": "049F4918-FD6D-4F45-8CF1-6A0CA7916BEB",
+   "name": "Alone in the Dark: The New Nightmare",
+   "date": "2001-06-25",
+   "img": false,
+   "pop": 0.96835298393213
+  }
+ ],
+ "Tomb Raider (2013)": [
+  {
+   "id": "94C61557-E11A-4DE7-A197-05E9F3830AF7",
+   "name": "Tomb Raider",
+   "date": "2013-03-05",
+   "img": true,
+   "pop": 0.9693531673893477
+  },
+  {
+   "id": "8195A1B1-DEEA-47B4-88C5-A59D0BDB8D1C",
+   "name": "Tomb Raider: Underworld",
+   "date": "2008-11-18",
+   "img": true,
+   "pop": 0.9799312670099987
+  },
+  {
+   "id": "4C197E5D-3DCE-4D49-B37F-9B7BD3C8B9E3",
+   "name": "Tomb Raider: Legend",
+   "date": "2006-04-11",
+   "img": true,
+   "pop": 0.9788030936276989
+  },
+  {
+   "id": "9105BA76-9E0A-47BC-8BF1-1EC383C18A5E",
+   "name": "Shadow of the Tomb Raider",
+   "date": "2018-09-12",
+   "img": true,
+   "pop": 0.9754333183621652
+  }
+ ],
+ "World of Warcraft Classic": [
+  {
+   "id": "18771726-F81F-4D27-8280-CFFB633FC596",
+   "name": "World of Warcraft Classic",
+   "date": "2019-08-27",
+   "img": true,
+   "pop": 0.9692997771130077
+  },
+  {
+   "id": "8A53D26E-222C-4A57-B70D-9D0CEC9FF711",
+   "name": "World of Warcraft: Cataclysm Classic",
+   "date": "2024-05-20",
+   "img": true,
+   "pop": 0.9721865425824121
+  },
+  {
+   "id": "9C8FD28C-EEF5-485E-9EE5-CF8C6A2915B0",
+   "name": "World of Warcraft: The Burning Crusade",
+   "date": "2007-01-16",
+   "img": true,
+   "pop": 0.9789976017124996
+  },
+  {
+   "id": "80B57D96-7E67-4A9C-AC04-E6770F502D1E",
+   "name": "World of Warcraft: Legion",
+   "date": "2016-08-29",
+   "img": true,
+   "pop": 0.977935772838065
+  }
+ ],
+ "Forza Horizon 4": [
+  {
+   "id": "1207B05A-10FE-4B65-987A-604D5F1ED359",
+   "name": "Forza Horizon 4",
+   "date": "2018-09-28",
+   "img": true,
+   "pop": 0.9616252265702743
+  },
+  {
+   "id": "69A95E92-2569-4068-9E84-EFBAE6144D66",
+   "name": "Forza Motorsport 4",
+   "date": "2011-10-11",
+   "img": true,
+   "pop": 0.9773845873404625
+  },
+  {
+   "id": "4897DB79-73ED-4522-AD46-188FE201FC13",
+   "name": "Forza Horizon 2",
+   "date": "2014-09-30",
+   "img": true,
+   "pop": 0.9706290560844458
+  },
+  {
+   "id": "708CDBDE-68C6-4712-A8EA-FF44E7F91C29",
+   "name": "Forza Horizon 3",
+   "date": "2016-09-23",
+   "img": true,
+   "pop": 0.9568286648881472
+  }
+ ],
+ "Yakuza: Like a Dragon": [
+  {
+   "id": "75713A82-F511-48F5-81C3-3EFC8251D06E",
+   "name": "Yakuza: Like a Dragon",
+   "date": "2020-11-10",
+   "img": true,
+   "pop": 0.9580499374801702
+  },
+  {
+   "id": "D41FA410-0A6E-4813-8F10-7AB5F99F8050",
+   "name": "Like a Dragon: Pirate Yakuza in Hawaii",
+   "date": "2025-02-21",
+   "img": true,
+   "pop": 0.9531887539928988
+  },
+  {
+   "id": "C9BB8BDA-1095-4F35-A63D-229EB08A41EE",
+   "name": "Like a Dragon: Ishin!",
+   "date": "2023-02-21",
+   "img": false,
+   "pop": 0.9612066977574996
+  },
+  {
+   "id": "93CE2ECE-2390-46F0-8ECF-BC87D1941538",
+   "name": "Like a Dragon Gaiden: The Man Who Erased His Name",
+   "date": "2023-11-09",
+   "img": true,
+   "pop": 0.9508968331080845
+  }
+ ]
+}

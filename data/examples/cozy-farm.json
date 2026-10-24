@@ -1,0 +1,1416 @@
+{
+ "id": "cozy-farm",
+ "label": "Cozy farming game",
+ "pitch": "A cozy farming game where you restore a seaside village, season by season (like Stardew Valley).",
+ "mode": "example",
+ "createdAt": "2026-10-23T19:34:11.285Z",
+ "audience": [
+  {
+   "id": "875DB771-9C4C-4DD0-9249-D2ABD95711F1",
+   "name": "Stardew Valley",
+   "image": "https://images.qloo.com/i/875DB771-9C4C-4DD0-9249-D2ABD95711F1-420x-auto.jpg",
+   "year": "2016"
+  },
+  {
+   "id": "08663BD2-E267-4C7F-9895-86410F67867C",
+   "name": "Animal Crossing: New Horizons",
+   "image": "https://images.qloo.com/i/08663BD2-E267-4C7F-9895-86410F67867C-420x-auto.jpg",
+   "year": "2020"
+  }
+ ],
+ "window": {
+  "start": "2026-11-01",
+  "end": "2027-03-31"
+ },
+ "releases": [
+  {
+   "key": "wow-forever",
+   "title": "World of Warcraft: Forever",
+   "kind": "game",
+   "date": "2026-11-04",
+   "platforms": "PC",
+   "source": {
+    "url": "https://news.blizzard.com/en-us/article/24301508/pre-purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth",
+    "publisher": "Blizzard News",
+    "says": "launches globally on November 4, 2026"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "World of Warcraft Classic",
+    "qlooId": "18771726-F81F-4D27-8280-CFFB633FC596",
+    "reason": "Not in Qloo yet; WoW Classic is the closest existing take on the original Azeroth."
+   },
+   "affinity": 0.6296061688260606,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 2,
+   "rank": 13
+  },
+  {
+   "key": "zelda-oot-remake",
+   "title": "The Legend of Zelda: Ocarina of Time (remake)",
+   "kind": "game",
+   "date": "2026-11-05",
+   "platforms": "Switch 2",
+   "source": {
+    "url": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-ocarina-of-time-125697/",
+    "publisher": "Nintendo store (US)",
+    "says": "Releases 11/5/26"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "The Legend of Zelda: Ocarina of Time (1998)",
+    "qlooId": "653F60F6-9E9C-4BEC-903B-B433C602529B",
+    "reason": "Qloo only knows the 1998 original of this remake."
+   },
+   "affinity": 0.6596871017981807,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 2,
+   "rank": 11
+  },
+  {
+   "key": "fm27",
+   "title": "Football Manager 27",
+   "kind": "game",
+   "date": "2026-11-10",
+   "platforms": "PC, Xbox, PS5, mobile",
+   "source": {
+    "url": "https://www.footballmanager.com/news/football-manager-27-launches-10-november",
+    "publisher": "Sports Interactive",
+    "says": "launching globally from 10 November"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Football Manager 2024",
+    "qlooId": "61984077-C126-4A1D-96D2-0CF1D87703BB",
+    "reason": "Previous edition in Qloo."
+   },
+   "affinity": null,
+   "via": "none",
+   "level": "open"
+  },
+  {
+   "key": "metaphor-ns2",
+   "title": "Metaphor: ReFantazio (Switch 2)",
+   "kind": "game",
+   "date": "2026-11-12",
+   "platforms": "Switch 2",
+   "source": {
+    "url": "https://www.nintendo.com/us/store/products/metaphor-refantazio-switch-2/",
+    "publisher": "Nintendo store (US)",
+    "says": "Releases 11/12/26"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "ED09419D-2979-4EE9-8691-A4D9CFDEC547",
+   "standIn": null,
+   "note": "Port of a 2024 game: Qloo scores the game itself.",
+   "affinity": 0.7164257643861257,
+   "via": "own",
+   "level": "overlap",
+   "callIndex": 0,
+   "rank": 3
+  },
+  {
+   "key": "pikmin4-ns2",
+   "title": "Pikmin 4 – Switch 2 Edition + Dandori Academy",
+   "kind": "game",
+   "date": "2026-11-12",
+   "platforms": "Switch 2",
+   "source": {
+    "url": "https://www.nintendo.com/en-ca/store/products/pikmin-4-nintendo-switch-2-edition-plus-dandori-academy-switch-2/",
+    "publisher": "Nintendo store (Canada)",
+    "says": "Release date November 12, 2026"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "C8F74D94-C613-488B-B8C7-8D775AF87F2F",
+   "standIn": null,
+   "note": "New edition of Pikmin 4: Qloo scores the game itself.",
+   "affinity": 0.7149230884307779,
+   "via": "own",
+   "level": "overlap",
+   "callIndex": 0,
+   "rank": 4
+  },
+  {
+   "key": "gta6",
+   "title": "Grand Theft Auto VI",
+   "kind": "game",
+   "date": "2026-11-19",
+   "platforms": "PS5, Xbox Series X|S",
+   "source": {
+    "url": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+    "publisher": "Rockstar Games Newswire",
+    "says": "will now release on Thursday, November 19, 2026"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "3B397EFF-7FFB-4763-A13D-E343196DF03E",
+   "standIn": {
+    "title": "Grand Theft Auto V",
+    "qlooId": "FEFD4E0D-D8F2-4BF9-86C9-06949DE82BCD",
+    "reason": "GTA VI is in Qloo but has no audience score before launch; GTA V is the previous game in the series."
+   },
+   "affinity": 0.5534986740435709,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 2,
+   "rank": 18
+  },
+  {
+   "key": "hunger-games-sotr",
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "kind": "movie",
+   "date": "2026-11-20",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "November 20, 2026 (wide, Lionsgate)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "5FA52F15-70F2-4E2C-8EA1-94D271F78AB4",
+   "standIn": {
+    "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+    "qlooId": "0063BFEC-EB8C-458D-A0BF-D7028F5294F6",
+    "reason": "Upcoming films rarely have a Qloo score; the previous film does."
+   },
+   "affinity": 0.7688815840518634,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 3
+  },
+  {
+   "key": "focker-in-law",
+   "title": "Focker-in-Law",
+   "kind": "movie",
+   "date": "2026-11-25",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "November 25, 2026 (wide, Universal)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "E91D7A66-6147-4228-A659-1639AEF39614",
+   "standIn": {
+    "title": "Meet the Fockers",
+    "qlooId": "EF270065-6364-4867-8D0F-6BE4A3CA6538",
+    "reason": "Earlier film in the series."
+   },
+   "affinity": 0.6314917152411699,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 3
+  },
+  {
+   "key": "dqm-withered",
+   "title": "Dragon Quest Monsters: The Withered World",
+   "kind": "game",
+   "date": "2026-12-03",
+   "platforms": "PC, PS5, Switch, Switch 2, Xbox",
+   "source": {
+    "url": "https://press.na.square-enix.com/DRAGON-QUEST-MONSTERS-The-Withered-World",
+    "publisher": "Square Enix press hub",
+    "says": "Release date 12/3/2026"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Dragon Quest XI: Echoes of an Elusive Age",
+    "qlooId": "DB84F0D6-EF20-4779-9F9E-B5D1B02116B7",
+    "reason": "The previous Monsters game (The Dark Prince) has no Qloo score; Dragon Quest XI is the series' best-known recent game."
+   },
+   "affinity": 0.689339817732964,
+   "via": "stand-in",
+   "level": "overlap",
+   "callIndex": 2,
+   "rank": 7
+  },
+  {
+   "key": "dow4",
+   "title": "Warhammer 40,000: Dawn of War IV",
+   "kind": "game",
+   "date": "2026-12-03",
+   "platforms": "PC",
+   "source": {
+    "url": "https://press.kochmedia.com/en-AU/DAWN-OF-WAR-IV-NOW-LAUNCHES-ON-DECEMBER-3",
+    "publisher": "PLAION press",
+    "says": "will now launch on December 3"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Warhammer 40,000: Dawn of War II",
+    "qlooId": "A709FF67-210A-43FF-8039-6A0210056266",
+    "reason": "Earlier game in the series."
+   },
+   "affinity": 0.4529683618638749,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 2,
+   "rank": 22
+  },
+  {
+   "key": "mh-wilds-ns2",
+   "title": "Monster Hunter Wilds (Switch 2)",
+   "kind": "game",
+   "date": "2026-12-04",
+   "platforms": "Switch 2",
+   "source": {
+    "url": "https://monsterhunter.com/wilds/en-us/switch2",
+    "publisher": "Capcom",
+    "says": "Available Friday, December 4, 2026"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "DBB0785A-A0A4-4BF7-BB7D-DA814B67FA9C",
+   "standIn": {
+    "title": "Monster Hunter Rise",
+    "qlooId": "7296523F-E203-4F2E-AF93-C7AA35BFA09D",
+    "reason": "Wilds has no Qloo score; Rise is the series' last game made for a Nintendo console."
+   },
+   "affinity": 0.7669330234693112,
+   "via": "stand-in",
+   "level": "clash",
+   "callIndex": 2,
+   "rank": 2
+  },
+  {
+   "key": "layton-steam",
+   "title": "Professor Layton and the New World of Steam",
+   "kind": "game",
+   "date": "2026-12-10",
+   "platforms": "Switch, Switch 2, PS5, PC",
+   "source": {
+    "url": "https://kotaku.com/professor-layton-and-the-new-world-of-steam-release-date-2000732759",
+    "publisher": "Kotaku",
+    "says": "release date of December 10, 2026"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Professor Layton and the Unwound Future",
+    "qlooId": "FE259261-4C0F-4948-8F19-6C4645F696C8",
+    "reason": "Earlier Layton game with a Qloo score."
+   },
+   "affinity": 0.6963928574182779,
+   "via": "stand-in",
+   "level": "overlap",
+   "callIndex": 2,
+   "rank": 5
+  },
+  {
+   "key": "poe2",
+   "title": "Path of Exile 2 (1.0)",
+   "kind": "game",
+   "date": "2026-12-11",
+   "platforms": "PC, PS5, Xbox",
+   "source": {
+    "url": "https://www.ign.com/articles/path-of-exile-2-release-date-sets-10-launch-in-december-2026",
+    "publisher": "IGN",
+    "says": "December 11, 2026"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "7B9AA8B3-510E-43E4-BA5B-567AA4A75C24",
+   "standIn": {
+    "title": "Path of Exile",
+    "qlooId": "F0BCBEBA-8055-45A5-B2A7-031F368B0995",
+    "reason": "Path of Exile 2 has no Qloo score yet; the first game shares its account and players."
+   },
+   "affinity": 0.6614538162550677,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 2,
+   "rank": 9
+  },
+  {
+   "key": "avengers-doomsday",
+   "title": "Avengers: Doomsday",
+   "kind": "movie",
+   "date": "2026-12-18",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "December 18, 2026 (wide, Disney)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "7EF70140-4061-4893-8917-E17D949E6535",
+   "standIn": {
+    "title": "Avengers: Endgame",
+    "qlooId": "813B0455-6AD2-4802-B4B5-314799249A9F",
+    "reason": "Previous Avengers film, used only if Qloo cannot score Doomsday."
+   },
+   "affinity": 0.7405425957980397,
+   "via": "own",
+   "level": "clear",
+   "callIndex": 1
+  },
+  {
+   "key": "dune-3",
+   "title": "Dune: Part Three",
+   "kind": "movie",
+   "date": "2026-12-18",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "December 18, 2026 (wide, Warner Bros.)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "991136D8-3027-4A42-8340-B2DF0BEBACAB",
+   "standIn": {
+    "title": "Dune: Part Two",
+    "qlooId": "878A5D45-469C-4556-8494-963C2B1D3A95",
+    "reason": "The previous film."
+   },
+   "affinity": 0.8084547045911848,
+   "via": "stand-in",
+   "level": "overlap",
+   "callIndex": 3
+  },
+  {
+   "key": "angry-birds-3",
+   "title": "The Angry Birds Movie 3",
+   "kind": "movie",
+   "date": "2026-12-23",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "December 23, 2026 (wide, Paramount)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "1532FCBC-399E-4220-AC86-655487758DF9",
+   "standIn": {
+    "title": "The Angry Birds Movie 2",
+    "qlooId": "B9EC7F73-6199-4978-8422-88BD7CD9B1E2",
+    "reason": "The previous film."
+   },
+   "affinity": 0.7474478327445446,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 3
+  },
+  {
+   "key": "jumanji-open-world",
+   "title": "Jumanji: Open World",
+   "kind": "movie",
+   "date": "2026-12-25",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "December 25, 2026 (wide, Sony)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "E54266F3-B5ED-453C-AAB8-59BF6826B7E4",
+   "standIn": {
+    "title": "Jumanji: The Next Level",
+    "qlooId": "A3A2DD32-AE95-40B9-BDF4-4F654EB46694",
+    "reason": "The previous film."
+   },
+   "affinity": 0.7442323197275216,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 3
+  },
+  {
+   "key": "stranger-than-heaven",
+   "title": "Stranger Than Heaven",
+   "kind": "game",
+   "date": "2027-01-15",
+   "platforms": "PS5, Xbox, PC",
+   "source": {
+    "url": "https://www.sega.co.jp/en/release/260608_3.html",
+    "publisher": "SEGA press release",
+    "says": "STRANGER THAN HEAVEN Launches January 15, 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Yakuza 0",
+    "qlooId": "92BC292C-380E-467C-A287-EC5F2AB55F8C",
+    "reason": "New series from RGG Studio; Yakuza 0 is the studio's best-known game."
+   },
+   "affinity": 0.5606639681373726,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 2,
+   "rank": 17
+  },
+  {
+   "key": "beekeeper-2",
+   "title": "The Beekeeper 2",
+   "kind": "movie",
+   "date": "2027-01-15",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "January 15, 2027 (wide, Amazon MGM)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "36324AA9-546D-4E43-B4E9-409C0E96147E",
+   "standIn": {
+    "title": "The Beekeeper",
+    "qlooId": "3A829C06-0C14-456B-8596-A08152406C35",
+    "reason": "The previous film."
+   },
+   "affinity": 0.6492651606538495,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 3
+  },
+  {
+   "key": "fh6-ps5",
+   "title": "Forza Horizon 6 (PS5)",
+   "kind": "game",
+   "date": "2027-01-26",
+   "platforms": "PS5",
+   "source": {
+    "url": "https://forza.net/news/forza-horizon-6-pre-order-ps5",
+    "publisher": "Forza.net",
+    "says": "Standard and Deluxe Editions will be released on January 26, 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Forza Horizon 5",
+    "qlooId": "F83FFF69-93DC-47CD-9885-FF4934B4A2BA",
+    "reason": "Forza Horizon 6 is not in Qloo; Forza Horizon 5 is the previous game."
+   },
+   "affinity": 0.6405007677738076,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 2,
+   "rank": 12
+  },
+  {
+   "key": "metroid-ravenous",
+   "title": "Metroid Ravenous",
+   "kind": "game",
+   "date": "2027-01-28",
+   "platforms": "Switch 2",
+   "source": {
+    "url": "https://nintendo.com/us/store/products/metroid-ravenous-switch-2",
+    "publisher": "Nintendo store (US)",
+    "says": "Release date January 28, 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Metroid Dread",
+    "qlooId": "A686CEF5-0166-4956-B291-AA9BBE2A75EB",
+    "reason": "The previous 2D Metroid."
+   },
+   "affinity": 0.6918060829948954,
+   "via": "stand-in",
+   "level": "overlap",
+   "callIndex": 2,
+   "rank": 6
+  },
+  {
+   "key": "until-dawn-2",
+   "title": "Until Dawn 2",
+   "kind": "game",
+   "date": "2027-01-28",
+   "platforms": "PS5",
+   "source": {
+    "url": "https://blog.playstation.com/2026/09/03/until-dawn-2-launches-january-28",
+    "publisher": "PlayStation Blog",
+    "says": "launches on PS5 on January 28, 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Until Dawn (2015)",
+    "qlooId": "80B5FEB4-1706-4299-93F3-A0806BEF5EBB",
+    "reason": "The original game."
+   },
+   "affinity": 0.5446331952587011,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 2,
+   "rank": 20
+  },
+  {
+   "key": "metro-2039",
+   "title": "Metro 2039",
+   "kind": "game",
+   "date": "2027-02-04",
+   "platforms": "PS5, Xbox, PC",
+   "source": {
+    "url": "https://blog.playstation.com/2026/09/03/metro-2039-launches-february-4-2027-ps5-pro-gameplay-revealed",
+    "publisher": "PlayStation Blog",
+    "says": "Metro 2039 launches February 4 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Metro Exodus",
+    "qlooId": "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+    "reason": "The previous game in the series."
+   },
+   "affinity": 0.5424046382669148,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 2,
+   "rank": 21
+  },
+  {
+   "key": "ice-age-6",
+   "title": "Ice Age: Boiling Point",
+   "kind": "movie",
+   "date": "2027-02-05",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "February 5, 2027 (wide, 20th Century)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "20AF72F1-9794-4C41-B669-BF258603E820",
+   "standIn": {
+    "title": "Ice Age: Collision Course",
+    "qlooId": "5DEAED2B-6A08-43F9-9967-6FD615E35EBF",
+    "reason": "The previous film."
+   },
+   "affinity": 0.7238835881381626,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 3
+  },
+  {
+   "key": "tomb-raider-atlantis",
+   "title": "Tomb Raider: Legacy of Atlantis",
+   "kind": "game",
+   "date": "2027-02-12",
+   "platforms": "PS5, Xbox, Switch 2, PC",
+   "source": {
+    "url": "https://playtombraider.com/en-us/news/articles/preorders-are-open",
+    "publisher": "Crystal Dynamics",
+    "says": "releases February 12, 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Shadow of the Tomb Raider",
+    "qlooId": "9105BA76-9E0A-47BC-8BF1-1EC383C18A5E",
+    "reason": "The latest main Tomb Raider game."
+   },
+   "affinity": 0.573247924726333,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 2,
+   "rank": 15
+  },
+  {
+   "key": "narnia-mn",
+   "title": "Narnia: The Magician's Nephew",
+   "kind": "movie",
+   "date": "2027-02-12",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "February 12, 2027 (Netflix, theatrical)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "09D4573C-07F3-4701-897C-CC9B0739C8A1",
+   "standIn": {
+    "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "qlooId": "D97D14FB-4CD2-4B69-B3B9-F5BBD2AD76BE",
+    "reason": "Best-known earlier Narnia film."
+   },
+   "affinity": 0.6973536332278395,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 3
+  },
+  {
+   "key": "gow-laufey",
+   "title": "God of War Laufey",
+   "kind": "game",
+   "date": "2027-02-16",
+   "platforms": "PS5",
+   "source": {
+    "url": "https://forbes.com/sites/brianmazique/2026/07/25/god-of-war-laufey-release-date-has-been-revealed-in-major-announcement",
+    "publisher": "Forbes",
+    "says": "The game will drop on February 16, 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "God of War Ragnarök",
+    "qlooId": "C7603E33-AB15-4872-A8EB-F6CEB39E6D20",
+    "reason": "The previous game in the series."
+   },
+   "affinity": 0.5698404596096699,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 2,
+   "rank": 16
+  },
+  {
+   "key": "persona4-revival",
+   "title": "Persona 4 Revival",
+   "kind": "game",
+   "date": "2027-02-18",
+   "platforms": "PS5, Xbox, PC",
+   "source": {
+    "url": "https://www.sega.co.jp/en/release/260608_4.html",
+    "publisher": "SEGA press release",
+    "says": "Persona 4 Revival Launches February 18, 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Persona 4 Golden",
+    "qlooId": "C79599E5-C584-4A0E-92F1-B39BEC7B7D82",
+    "reason": "The game this remake is based on."
+   },
+   "affinity": 0.660990443398404,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 2,
+   "rank": 10
+  },
+  {
+   "key": "fable",
+   "title": "Fable",
+   "kind": "game",
+   "date": "2027-02-23",
+   "platforms": "Xbox, PS5, PC",
+   "source": {
+    "url": "https://www.gamesradar.com/games/rpg/fable-director-happy-to-go-toe-to-toe-with-heavy-hitters-like-persona-and-god-of-war-but-gta-6-is-a-beast-hes-happy-to-avoid-entirely/",
+    "publisher": "GamesRadar+",
+    "says": "its delay into February 23, 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Fable II",
+    "qlooId": "0378D07A-F5A6-49F9-BBA9-8CF6F7F44CCA",
+    "reason": "Qloo has a 'Fable' entry dated 2022 that cannot be confirmed as this game; Fable II is used instead."
+   },
+   "affinity": 0.6624505883050392,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 2,
+   "rank": 8
+  },
+  {
+   "key": "trine-6",
+   "title": "Trine 6: Together in Time",
+   "kind": "game",
+   "date": "2027-03-04",
+   "platforms": "PS5, Xbox, Switch 2, PC",
+   "source": {
+    "url": "https://psu.com/news/trine-6-together-in-time-release-date-pushed-to-march-2027",
+    "publisher": "PSU",
+    "says": "delayed to March 4, 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Trine 4: The Nightmare Prince",
+    "qlooId": "13F16103-93F8-43EA-ABFD-D1B772C634A7",
+    "reason": "Trine 5 has no Qloo score; Trine 4 is the latest scored game in the series."
+   },
+   "affinity": 0.609020721679089,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 2,
+   "rank": 14
+  },
+  {
+   "key": "wo-long-2",
+   "title": "Wo Long 2: Wings of Ember",
+   "kind": "game",
+   "date": "2027-03-04",
+   "platforms": "PS5, Xbox, Switch 2, PC",
+   "source": {
+    "url": "https://www.koeitecmoeurope.com/news/return-to-the-demon-infested-world-of-the-three-kingdoms-in-wo-long-2-wings-of-ember-on-4th-march-2027",
+    "publisher": "Koei Tecmo Europe",
+    "says": "will be released worldwide on 4th March 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Nioh 2",
+    "qlooId": "24BA864F-5394-4E98-9762-CEA9B736AD4B",
+    "reason": "Wo Long: Fallen Dynasty has no Qloo score; Nioh 2 is Team NINJA's closest scored game."
+   },
+   "affinity": 0.55224980791424,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 2,
+   "rank": 19
+  },
+  {
+   "key": "grave-seasons",
+   "title": "Grave Seasons",
+   "kind": "game",
+   "date": "2027-03-09",
+   "platforms": "PS5, Xbox, Switch, PC",
+   "source": {
+    "url": "https://bleedingcool.com/games/blumhouse-games-pushes-grave-seasons-release-back-to-march-2027",
+    "publisher": "Bleeding Cool",
+    "says": "will now launch on March 9, 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Graveyard Keeper",
+    "qlooId": "40C45656-B28F-4181-813D-90BA600BB33D",
+    "reason": "New game with no predecessor: a genre stand-in (dark farming and life sim), weaker than a series stand-in."
+   },
+   "affinity": 0.7764894176614036,
+   "via": "stand-in",
+   "level": "clash",
+   "callIndex": 2,
+   "rank": 1
+  },
+  {
+   "key": "sonic-4",
+   "title": "Sonic the Hedgehog 4",
+   "kind": "movie",
+   "date": "2027-03-19",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "March 19, 2027 (wide, Paramount)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "572EDC53-D35D-4E0B-B987-A9B0CA0B5AFD",
+   "standIn": {
+    "title": "Sonic the Hedgehog 3",
+    "qlooId": "E595B4DD-CDE1-4FD1-B4DD-A67A5293493C",
+    "reason": "The previous film."
+   },
+   "affinity": 0.7968394369136046,
+   "via": "stand-in",
+   "level": "overlap",
+   "callIndex": 3
+  },
+  {
+   "key": "gxk-supernova",
+   "title": "Godzilla x Kong: Supernova",
+   "kind": "movie",
+   "date": "2027-03-26",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "March 26, 2027 (wide, Warner Bros.)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "5BA6BEDB-F8E6-4D01-B4CB-C9ED35D4DFD9",
+   "standIn": {
+    "title": "Godzilla x Kong: The New Empire",
+    "qlooId": "66F337B9-58EC-4643-B525-BCD68B2440F5",
+    "reason": "The previous film."
+   },
+   "affinity": 0.733444628806482,
+   "via": "stand-in",
+   "level": "clear",
+   "callIndex": 3
+  }
+ ],
+ "weeks": [
+  {
+   "start": "2026-11-02",
+   "end": "2026-11-08",
+   "level": "clear",
+   "releaseKeys": [
+    "wow-forever",
+    "zelda-oot-remake"
+   ],
+   "steamEvents": [],
+   "peak": 0.6596871017981807,
+   "peakKey": "zelda-oot-remake"
+  },
+  {
+   "start": "2026-11-09",
+   "end": "2026-11-15",
+   "level": "overlap",
+   "releaseKeys": [
+    "fm27",
+    "metaphor-ns2",
+    "pikmin4-ns2"
+   ],
+   "steamEvents": [],
+   "peak": 0.7164257643861257,
+   "peakKey": "metaphor-ns2"
+  },
+  {
+   "start": "2026-11-16",
+   "end": "2026-11-22",
+   "level": "clear",
+   "releaseKeys": [
+    "gta6",
+    "hunger-games-sotr"
+   ],
+   "steamEvents": [],
+   "peak": 0.7688815840518634,
+   "peakKey": "hunger-games-sotr"
+  },
+  {
+   "start": "2026-11-23",
+   "end": "2026-11-29",
+   "level": "clear",
+   "releaseKeys": [
+    "focker-in-law"
+   ],
+   "steamEvents": [],
+   "peak": 0.6314917152411699,
+   "peakKey": "focker-in-law"
+  },
+  {
+   "start": "2026-11-30",
+   "end": "2026-12-06",
+   "level": "clash",
+   "releaseKeys": [
+    "dqm-withered",
+    "dow4",
+    "mh-wilds-ns2"
+   ],
+   "steamEvents": [],
+   "peak": 0.7669330234693112,
+   "peakKey": "mh-wilds-ns2"
+  },
+  {
+   "start": "2026-12-07",
+   "end": "2026-12-13",
+   "level": "overlap",
+   "releaseKeys": [
+    "layton-steam",
+    "poe2"
+   ],
+   "steamEvents": [],
+   "peak": 0.6963928574182779,
+   "peakKey": "layton-steam"
+  },
+  {
+   "start": "2026-12-14",
+   "end": "2026-12-20",
+   "level": "overlap",
+   "releaseKeys": [
+    "avengers-doomsday",
+    "dune-3"
+   ],
+   "steamEvents": [
+    "steam-winter-sale-2026"
+   ],
+   "peak": 0.8084547045911848,
+   "peakKey": "dune-3"
+  },
+  {
+   "start": "2026-12-21",
+   "end": "2026-12-27",
+   "level": "clear",
+   "releaseKeys": [
+    "angry-birds-3",
+    "jumanji-open-world"
+   ],
+   "steamEvents": [
+    "steam-winter-sale-2026"
+   ],
+   "peak": 0.7474478327445446,
+   "peakKey": "angry-birds-3"
+  },
+  {
+   "start": "2026-12-28",
+   "end": "2027-01-03",
+   "level": "open",
+   "releaseKeys": [],
+   "steamEvents": [
+    "steam-winter-sale-2026"
+   ],
+   "peak": null,
+   "peakKey": null
+  },
+  {
+   "start": "2027-01-04",
+   "end": "2027-01-10",
+   "level": "open",
+   "releaseKeys": [],
+   "steamEvents": [],
+   "peak": null,
+   "peakKey": null
+  },
+  {
+   "start": "2027-01-11",
+   "end": "2027-01-17",
+   "level": "clear",
+   "releaseKeys": [
+    "stranger-than-heaven",
+    "beekeeper-2"
+   ],
+   "steamEvents": [],
+   "peak": 0.6492651606538495,
+   "peakKey": "beekeeper-2"
+  },
+  {
+   "start": "2027-01-18",
+   "end": "2027-01-24",
+   "level": "open",
+   "releaseKeys": [],
+   "steamEvents": [],
+   "peak": null,
+   "peakKey": null
+  },
+  {
+   "start": "2027-01-25",
+   "end": "2027-01-31",
+   "level": "overlap",
+   "releaseKeys": [
+    "fh6-ps5",
+    "metroid-ravenous",
+    "until-dawn-2"
+   ],
+   "steamEvents": [],
+   "peak": 0.6918060829948954,
+   "peakKey": "metroid-ravenous"
+  },
+  {
+   "start": "2027-02-01",
+   "end": "2027-02-07",
+   "level": "clear",
+   "releaseKeys": [
+    "metro-2039",
+    "ice-age-6"
+   ],
+   "steamEvents": [],
+   "peak": 0.7238835881381626,
+   "peakKey": "ice-age-6"
+  },
+  {
+   "start": "2027-02-08",
+   "end": "2027-02-14",
+   "level": "clear",
+   "releaseKeys": [
+    "tomb-raider-atlantis",
+    "narnia-mn"
+   ],
+   "steamEvents": [],
+   "peak": 0.6973536332278395,
+   "peakKey": "narnia-mn"
+  },
+  {
+   "start": "2027-02-15",
+   "end": "2027-02-21",
+   "level": "clear",
+   "releaseKeys": [
+    "gow-laufey",
+    "persona4-revival"
+   ],
+   "steamEvents": [],
+   "peak": 0.660990443398404,
+   "peakKey": "persona4-revival"
+  },
+  {
+   "start": "2027-02-22",
+   "end": "2027-02-28",
+   "level": "clear",
+   "releaseKeys": [
+    "fable"
+   ],
+   "steamEvents": [
+    "steam-next-fest-feb-2027"
+   ],
+   "peak": 0.6624505883050392,
+   "peakKey": "fable"
+  },
+  {
+   "start": "2027-03-01",
+   "end": "2027-03-07",
+   "level": "clear",
+   "releaseKeys": [
+    "trine-6",
+    "wo-long-2"
+   ],
+   "steamEvents": [],
+   "peak": 0.609020721679089,
+   "peakKey": "trine-6"
+  },
+  {
+   "start": "2027-03-08",
+   "end": "2027-03-14",
+   "level": "clash",
+   "releaseKeys": [
+    "grave-seasons"
+   ],
+   "steamEvents": [],
+   "peak": 0.7764894176614036,
+   "peakKey": "grave-seasons"
+  },
+  {
+   "start": "2027-03-15",
+   "end": "2027-03-21",
+   "level": "overlap",
+   "releaseKeys": [
+    "sonic-4"
+   ],
+   "steamEvents": [
+    "steam-spring-sale-2027"
+   ],
+   "peak": 0.7968394369136046,
+   "peakKey": "sonic-4"
+  },
+  {
+   "start": "2027-03-22",
+   "end": "2027-03-28",
+   "level": "clear",
+   "releaseKeys": [
+    "gxk-supernova"
+   ],
+   "steamEvents": [
+    "steam-spring-sale-2027"
+   ],
+   "peak": 0.733444628806482,
+   "peakKey": "gxk-supernova"
+  }
+ ],
+ "verdict": {
+  "recommended": [
+   {
+    "weekStart": "2027-01-04",
+    "level": "open",
+    "sentence": "No tracked game or film lands this week. No Steam storewide sale or Next Fest that week."
+   },
+   {
+    "weekStart": "2027-01-18",
+    "level": "open",
+    "sentence": "No tracked game or film lands this week. Nearby: Metroid Ravenous (through Metroid Dread) lands Jan 28 at 0.69."
+   },
+   {
+    "weekStart": "2027-02-15",
+    "level": "clear",
+    "sentence": "Biggest neighbour: Persona 4 Revival (through Persona 4 Golden) at 0.66, a different crowd from yours. No Steam storewide sale or Next Fest that week.",
+    "releaseKey": "persona4-revival"
+   }
+  ],
+  "avoid": [
+   {
+    "weekStart": "2026-11-30",
+    "level": "clash",
+    "sentence": "Monster Hunter Wilds (Switch 2) (through Monster Hunter Rise) scores 0.77 with your players, #2 of the games we track.",
+    "releaseKey": "mh-wilds-ns2"
+   },
+   {
+    "weekStart": "2027-03-08",
+    "level": "clash",
+    "sentence": "Grave Seasons (through Graveyard Keeper) scores 0.78 with your players, #1 of the games we track.",
+    "releaseKey": "grave-seasons"
+   }
+  ],
+  "gta": {
+   "answer": "no",
+   "affinity": 0.5534986740435709,
+   "standInTitle": "Grand Theft Auto V",
+   "rank": 18,
+   "of": 22,
+   "sentence": "No need to run. GTA's audience is mostly not yours: 0.55 (measured through Grand Theft Auto V, since Qloo does not score GTA VI before launch). It ranks #18 of 22 games we track for your players. Its launch week is not your main risk."
+  },
+  "summary": "You do not need to dodge Grand Theft Auto VI, as its affinity is 0.55 through Grand Theft Auto V. The release closest to your players is Dune: Part Three at 0.81 through Dune: Part Two. The best weeks for your launch are the week of Jan 4, the week of Jan 18, and the week of Feb 15.",
+  "summaryBy": "agent"
+ },
+ "evidence": {
+  "calls": [
+   {
+    "path": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:videogame",
+     "signal.interests.entities": "875DB771-9C4C-4DD0-9249-D2ABD95711F1,08663BD2-E267-4C7F-9895-86410F67867C",
+     "filter.results.entities": "ED09419D-2979-4EE9-8691-A4D9CFDEC547,C8F74D94-C613-488B-B8C7-8D775AF87F2F,3B397EFF-7FFB-4763-A13D-E343196DF03E,DBB0785A-A0A4-4BF7-BB7D-DA814B67FA9C,7B9AA8B3-510E-43E4-BA5B-567AA4A75C24",
+     "take": "5"
+    },
+    "url": "https://hackathon.api.qloo.com/v2/insights?filter.results.entities=ED09419D-2979-4EE9-8691-A4D9CFDEC547%2CC8F74D94-C613-488B-B8C7-8D775AF87F2F%2C3B397EFF-7FFB-4763-A13D-E343196DF03E%2CDBB0785A-A0A4-4BF7-BB7D-DA814B67FA9C%2C7B9AA8B3-510E-43E4-BA5B-567AA4A75C24&filter.type=urn%3Aentity%3Avideogame&signal.interests.entities=875DB771-9C4C-4DD0-9249-D2ABD95711F1%2C08663BD2-E267-4C7F-9895-86410F67867C&take=5",
+    "status": 200,
+    "cached": true,
+    "ms": 0,
+    "at": "2026-10-23T19:10:53.930Z",
+    "resultCount": 2
+   },
+   {
+    "path": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:movie",
+     "signal.interests.entities": "875DB771-9C4C-4DD0-9249-D2ABD95711F1,08663BD2-E267-4C7F-9895-86410F67867C",
+     "filter.results.entities": "5FA52F15-70F2-4E2C-8EA1-94D271F78AB4,E91D7A66-6147-4228-A659-1639AEF39614,7EF70140-4061-4893-8917-E17D949E6535,991136D8-3027-4A42-8340-B2DF0BEBACAB,1532FCBC-399E-4220-AC86-655487758DF9,E54266F3-B5ED-453C-AAB8-59BF6826B7E4,36324AA9-546D-4E43-B4E9-409C0E96147E,20AF72F1-9794-4C41-B669-BF258603E820,09D4573C-07F3-4701-897C-CC9B0739C8A1,572EDC53-D35D-4E0B-B987-A9B0CA0B5AFD,5BA6BEDB-F8E6-4D01-B4CB-C9ED35D4DFD9",
+     "take": "11"
+    },
+    "url": "https://hackathon.api.qloo.com/v2/insights?filter.results.entities=5FA52F15-70F2-4E2C-8EA1-94D271F78AB4%2CE91D7A66-6147-4228-A659-1639AEF39614%2C7EF70140-4061-4893-8917-E17D949E6535%2C991136D8-3027-4A42-8340-B2DF0BEBACAB%2C1532FCBC-399E-4220-AC86-655487758DF9%2CE54266F3-B5ED-453C-AAB8-59BF6826B7E4%2C36324AA9-546D-4E43-B4E9-409C0E96147E%2C20AF72F1-9794-4C41-B669-BF258603E820%2C09D4573C-07F3-4701-897C-CC9B0739C8A1%2C572EDC53-D35D-4E0B-B987-A9B0CA0B5AFD%2C5BA6BEDB-F8E6-4D01-B4CB-C9ED35D4DFD9&filter.type=urn%3Aentity%3Amovie&signal.interests.entities=875DB771-9C4C-4DD0-9249-D2ABD95711F1%2C08663BD2-E267-4C7F-9895-86410F67867C&take=11",
+    "status": 200,
+    "cached": true,
+    "ms": 0,
+    "at": "2026-10-23T19:10:54.088Z",
+    "resultCount": 1
+   },
+   {
+    "path": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:videogame",
+     "signal.interests.entities": "875DB771-9C4C-4DD0-9249-D2ABD95711F1,08663BD2-E267-4C7F-9895-86410F67867C",
+     "filter.results.entities": "18771726-F81F-4D27-8280-CFFB633FC596,653F60F6-9E9C-4BEC-903B-B433C602529B,61984077-C126-4A1D-96D2-0CF1D87703BB,FEFD4E0D-D8F2-4BF9-86C9-06949DE82BCD,DB84F0D6-EF20-4779-9F9E-B5D1B02116B7,A709FF67-210A-43FF-8039-6A0210056266,7296523F-E203-4F2E-AF93-C7AA35BFA09D,FE259261-4C0F-4948-8F19-6C4645F696C8,F0BCBEBA-8055-45A5-B2A7-031F368B0995,92BC292C-380E-467C-A287-EC5F2AB55F8C,F83FFF69-93DC-47CD-9885-FF4934B4A2BA,A686CEF5-0166-4956-B291-AA9BBE2A75EB,80B5FEB4-1706-4299-93F3-A0806BEF5EBB,BA18F084-40D4-44AF-A0FF-A680155E5E07,9105BA76-9E0A-47BC-8BF1-1EC383C18A5E,C7603E33-AB15-4872-A8EB-F6CEB39E6D20,C79599E5-C584-4A0E-92F1-B39BEC7B7D82,0378D07A-F5A6-49F9-BBA9-8CF6F7F44CCA,13F16103-93F8-43EA-ABFD-D1B772C634A7,24BA864F-5394-4E98-9762-CEA9B736AD4B,40C45656-B28F-4181-813D-90BA600BB33D",
+     "take": "21"
+    },
+    "url": "https://hackathon.api.qloo.com/v2/insights?filter.results.entities=18771726-F81F-4D27-8280-CFFB633FC596%2C653F60F6-9E9C-4BEC-903B-B433C602529B%2C61984077-C126-4A1D-96D2-0CF1D87703BB%2CFEFD4E0D-D8F2-4BF9-86C9-06949DE82BCD%2CDB84F0D6-EF20-4779-9F9E-B5D1B02116B7%2CA709FF67-210A-43FF-8039-6A0210056266%2C7296523F-E203-4F2E-AF93-C7AA35BFA09D%2CFE259261-4C0F-4948-8F19-6C4645F696C8%2CF0BCBEBA-8055-45A5-B2A7-031F368B0995%2C92BC292C-380E-467C-A287-EC5F2AB55F8C%2CF83FFF69-93DC-47CD-9885-FF4934B4A2BA%2CA686CEF5-0166-4956-B291-AA9BBE2A75EB%2C80B5FEB4-1706-4299-93F3-A0806BEF5EBB%2CBA18F084-40D4-44AF-A0FF-A680155E5E07%2C9105BA76-9E0A-47BC-8BF1-1EC383C18A5E%2CC7603E33-AB15-4872-A8EB-F6CEB39E6D20%2CC79599E5-C584-4A0E-92F1-B39BEC7B7D82%2C0378D07A-F5A6-49F9-BBA9-8CF6F7F44CCA%2C13F16103-93F8-43EA-ABFD-D1B772C634A7%2C24BA864F-5394-4E98-9762-CEA9B736AD4B%2C40C45656-B28F-4181-813D-90BA600BB33D&filter.type=urn%3Aentity%3Avideogame&signal.interests.entities=875DB771-9C4C-4DD0-9249-D2ABD95711F1%2C08663BD2-E267-4C7F-9895-86410F67867C&take=21",
+    "status": 200,
+    "cached": true,
+    "ms": 0,
+    "at": "2026-10-23T19:10:54.326Z",
+    "resultCount": 20
+   },
+   {
+    "path": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:movie",
+     "signal.interests.entities": "875DB771-9C4C-4DD0-9249-D2ABD95711F1,08663BD2-E267-4C7F-9895-86410F67867C",
+     "filter.results.entities": "0063BFEC-EB8C-458D-A0BF-D7028F5294F6,EF270065-6364-4867-8D0F-6BE4A3CA6538,878A5D45-469C-4556-8494-963C2B1D3A95,B9EC7F73-6199-4978-8422-88BD7CD9B1E2,A3A2DD32-AE95-40B9-BDF4-4F654EB46694,3A829C06-0C14-456B-8596-A08152406C35,5DEAED2B-6A08-43F9-9967-6FD615E35EBF,D97D14FB-4CD2-4B69-B3B9-F5BBD2AD76BE,E595B4DD-CDE1-4FD1-B4DD-A67A5293493C,66F337B9-58EC-4643-B525-BCD68B2440F5",
+     "take": "10"
+    },
+    "url": "https://hackathon.api.qloo.com/v2/insights?filter.results.entities=0063BFEC-EB8C-458D-A0BF-D7028F5294F6%2CEF270065-6364-4867-8D0F-6BE4A3CA6538%2C878A5D45-469C-4556-8494-963C2B1D3A95%2CB9EC7F73-6199-4978-8422-88BD7CD9B1E2%2CA3A2DD32-AE95-40B9-BDF4-4F654EB46694%2C3A829C06-0C14-456B-8596-A08152406C35%2C5DEAED2B-6A08-43F9-9967-6FD615E35EBF%2CD97D14FB-4CD2-4B69-B3B9-F5BBD2AD76BE%2CE595B4DD-CDE1-4FD1-B4DD-A67A5293493C%2C66F337B9-58EC-4643-B525-BCD68B2440F5&filter.type=urn%3Aentity%3Amovie&signal.interests.entities=875DB771-9C4C-4DD0-9249-D2ABD95711F1%2C08663BD2-E267-4C7F-9895-86410F67867C&take=10",
+    "status": 200,
+    "cached": true,
+    "ms": 0,
+    "at": "2026-10-23T19:10:54.596Z",
+    "resultCount": 10
+   }
+  ],
+  "names": {
+   "ED09419D-2979-4EE9-8691-A4D9CFDEC547": "Metaphor: ReFantazio",
+   "C8F74D94-C613-488B-B8C7-8D775AF87F2F": "Pikmin 4",
+   "7EF70140-4061-4893-8917-E17D949E6535": "Avengers: Doomsday",
+   "40C45656-B28F-4181-813D-90BA600BB33D": "Graveyard Keeper",
+   "7296523F-E203-4F2E-AF93-C7AA35BFA09D": "Monster Hunter Rise",
+   "FE259261-4C0F-4948-8F19-6C4645F696C8": "Professor Layton and the Unwound Future",
+   "A686CEF5-0166-4956-B291-AA9BBE2A75EB": "Metroid Dread",
+   "DB84F0D6-EF20-4779-9F9E-B5D1B02116B7": "Dragon Quest XI: Echoes of an Elusive Age",
+   "0378D07A-F5A6-49F9-BBA9-8CF6F7F44CCA": "Fable II",
+   "F0BCBEBA-8055-45A5-B2A7-031F368B0995": "Path of Exile",
+   "C79599E5-C584-4A0E-92F1-B39BEC7B7D82": "Persona 4 Golden",
+   "653F60F6-9E9C-4BEC-903B-B433C602529B": "The Legend of Zelda: Ocarina of Time",
+   "F83FFF69-93DC-47CD-9885-FF4934B4A2BA": "Forza Horizon 5",
+   "18771726-F81F-4D27-8280-CFFB633FC596": "World of Warcraft Classic",
+   "13F16103-93F8-43EA-ABFD-D1B772C634A7": "Trine 4: The Nightmare Prince",
+   "9105BA76-9E0A-47BC-8BF1-1EC383C18A5E": "Shadow of the Tomb Raider",
+   "C7603E33-AB15-4872-A8EB-F6CEB39E6D20": "God of War: Ragnarok",
+   "92BC292C-380E-467C-A287-EC5F2AB55F8C": "Yakuza 0",
+   "FEFD4E0D-D8F2-4BF9-86C9-06949DE82BCD": "Grand Theft Auto V",
+   "24BA864F-5394-4E98-9762-CEA9B736AD4B": "Nioh 2",
+   "80B5FEB4-1706-4299-93F3-A0806BEF5EBB": "Until Dawn (2015)",
+   "BA18F084-40D4-44AF-A0FF-A680155E5E07": "Metro Exodus",
+   "A709FF67-210A-43FF-8039-6A0210056266": "Warhammer 40,000: Dawn of War II",
+   "878A5D45-469C-4556-8494-963C2B1D3A95": "Dune: Part Two",
+   "E595B4DD-CDE1-4FD1-B4DD-A67A5293493C": "Sonic the Hedgehog 3",
+   "0063BFEC-EB8C-458D-A0BF-D7028F5294F6": "The Hunger Games: The Ballad of Songbirds & Snakes",
+   "B9EC7F73-6199-4978-8422-88BD7CD9B1E2": "The Angry Birds Movie 2",
+   "A3A2DD32-AE95-40B9-BDF4-4F654EB46694": "Jumanji: The Next Level",
+   "66F337B9-58EC-4643-B525-BCD68B2440F5": "Godzilla X Kong: The New Empire",
+   "5DEAED2B-6A08-43F9-9967-6FD615E35EBF": "Ice Age: Collision Course",
+   "D97D14FB-4CD2-4B69-B3B9-F5BBD2AD76BE": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+   "3A829C06-0C14-456B-8596-A08152406C35": "The Beekeeper",
+   "EF270065-6364-4867-8D0F-6BE4A3CA6538": "Meet the Fockers"
+  },
+  "rule": {
+   "gameClash": 0.75,
+   "gameOverlap": 0.68,
+   "movieOverlap": 0.78
+  }
+ },
+ "steps": [
+  {
+   "ms": 0,
+   "kind": "think",
+   "text": "Audience: players of Stardew Valley, Animal Crossing: New Horizons"
+  },
+  {
+   "ms": 841,
+   "kind": "search",
+   "text": "Reading the release calendar: 34 sourced releases, 3 Steam events"
+  },
+  {
+   "ms": 1379,
+   "kind": "measure",
+   "text": "Qloo scored 3 of 34 releases directly",
+   "detail": "Metaphor: ReFantazio (Switch 2) 0.72 · Pikmin 4 – Switch 2 Edition + Dandori Academy 0.71 · Avengers: Doomsday 0.74"
+  },
+  {
+   "ms": 2482,
+   "kind": "think",
+   "text": "Looking up stand-ins for 31 unscored releases"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "World of Warcraft: Forever: no Qloo score yet, using World of Warcraft Classic as stand-in (0.63)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "The Legend of Zelda: Ocarina of Time (remake): no Qloo score yet, using The Legend of Zelda: Ocarina of Time (1998) as stand-in (0.66)"
+  },
+  {
+   "ms": 3523,
+   "kind": "warn",
+   "text": "Football Manager 27: stand-in Football Manager 2024 has no score either"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Grand Theft Auto VI: no Qloo score yet, using Grand Theft Auto V as stand-in (0.55)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "The Hunger Games: Sunrise on the Reaping: no Qloo score yet, using The Hunger Games: The Ballad of Songbirds & Snakes as stand-in (0.77)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Focker-in-Law: no Qloo score yet, using Meet the Fockers as stand-in (0.63)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Dragon Quest Monsters: The Withered World: no Qloo score yet, using Dragon Quest XI: Echoes of an Elusive Age as stand-in (0.69)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Warhammer 40,000: Dawn of War IV: no Qloo score yet, using Warhammer 40,000: Dawn of War II as stand-in (0.45)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Monster Hunter Wilds (Switch 2): no Qloo score yet, using Monster Hunter Rise as stand-in (0.77)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Professor Layton and the New World of Steam: no Qloo score yet, using Professor Layton and the Unwound Future as stand-in (0.70)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Path of Exile 2 (1.0): no Qloo score yet, using Path of Exile as stand-in (0.66)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Dune: Part Three: no Qloo score yet, using Dune: Part Two as stand-in (0.81)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "The Angry Birds Movie 3: no Qloo score yet, using The Angry Birds Movie 2 as stand-in (0.75)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Jumanji: Open World: no Qloo score yet, using Jumanji: The Next Level as stand-in (0.74)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Stranger Than Heaven: no Qloo score yet, using Yakuza 0 as stand-in (0.56)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "The Beekeeper 2: no Qloo score yet, using The Beekeeper as stand-in (0.65)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Forza Horizon 6 (PS5): no Qloo score yet, using Forza Horizon 5 as stand-in (0.64)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Metroid Ravenous: no Qloo score yet, using Metroid Dread as stand-in (0.69)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Until Dawn 2: no Qloo score yet, using Until Dawn (2015) as stand-in (0.54)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Metro 2039: no Qloo score yet, using Metro Exodus as stand-in (0.54)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Ice Age: Boiling Point: no Qloo score yet, using Ice Age: Collision Course as stand-in (0.72)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Tomb Raider: Legacy of Atlantis: no Qloo score yet, using Shadow of the Tomb Raider as stand-in (0.57)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Narnia: The Magician's Nephew: no Qloo score yet, using The Chronicles of Narnia: The Lion, the Witch and the Wardrobe as stand-in (0.70)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "God of War Laufey: no Qloo score yet, using God of War Ragnarök as stand-in (0.57)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Persona 4 Revival: no Qloo score yet, using Persona 4 Golden as stand-in (0.66)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Fable: no Qloo score yet, using Fable II as stand-in (0.66)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Trine 6: Together in Time: no Qloo score yet, using Trine 4: The Nightmare Prince as stand-in (0.61)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Wo Long 2: Wings of Ember: no Qloo score yet, using Nioh 2 as stand-in (0.55)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Grave Seasons: no Qloo score yet, using Graveyard Keeper as stand-in (0.78)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Sonic the Hedgehog 4: no Qloo score yet, using Sonic the Hedgehog 3 as stand-in (0.80)"
+  },
+  {
+   "ms": 3523,
+   "kind": "swap",
+   "text": "Godzilla x Kong: Supernova: no Qloo score yet, using Godzilla x Kong: The New Empire as stand-in (0.73)"
+  },
+  {
+   "ms": 4116,
+   "kind": "compute",
+   "text": "Coloured 21 weeks: 2 red, 5 yellow, 11 green"
+  },
+  {
+   "ms": 5053,
+   "kind": "write",
+   "text": "Verdict written from Qloo numbers only"
+  },
+  {
+   "ms": 5053,
+   "kind": "done",
+   "text": "Done: 4 Qloo calls, 6 agent turns"
+  }
+ ],
+ "stats": {
+  "qlooCalls": 0,
+  "qlooCached": 4,
+  "geminiCalls": 6,
+  "seconds": 5.1,
+  "model": "gemini-3.5-flash-lite"
+ }
+}

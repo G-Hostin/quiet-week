@@ -1,0 +1,672 @@
+{
+ "updated": "2026-10-23",
+ "releases": [
+  {
+   "key": "wow-forever",
+   "title": "World of Warcraft: Forever",
+   "kind": "game",
+   "date": "2026-11-04",
+   "platforms": "PC",
+   "source": {
+    "url": "https://news.blizzard.com/en-us/article/24301508/pre-purchase-world-of-warcraft-forever-upgrades-and-begin-your-next-journey-in-azeroth",
+    "publisher": "Blizzard News",
+    "says": "launches globally on November 4, 2026"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "World of Warcraft Classic",
+    "qlooId": "18771726-F81F-4D27-8280-CFFB633FC596",
+    "reason": "Not in Qloo yet; WoW Classic is the closest existing take on the original Azeroth."
+   }
+  },
+  {
+   "key": "zelda-oot-remake",
+   "title": "The Legend of Zelda: Ocarina of Time (remake)",
+   "kind": "game",
+   "date": "2026-11-05",
+   "platforms": "Switch 2",
+   "source": {
+    "url": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-ocarina-of-time-125697/",
+    "publisher": "Nintendo store (US)",
+    "says": "Releases 11/5/26"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "The Legend of Zelda: Ocarina of Time (1998)",
+    "qlooId": "653F60F6-9E9C-4BEC-903B-B433C602529B",
+    "reason": "Qloo only knows the 1998 original of this remake."
+   }
+  },
+  {
+   "key": "fm27",
+   "title": "Football Manager 27",
+   "kind": "game",
+   "date": "2026-11-10",
+   "platforms": "PC, Xbox, PS5, mobile",
+   "source": {
+    "url": "https://www.footballmanager.com/news/football-manager-27-launches-10-november",
+    "publisher": "Sports Interactive",
+    "says": "launching globally from 10 November"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Football Manager 2024",
+    "qlooId": "61984077-C126-4A1D-96D2-0CF1D87703BB",
+    "reason": "Previous edition in Qloo."
+   }
+  },
+  {
+   "key": "metaphor-ns2",
+   "title": "Metaphor: ReFantazio (Switch 2)",
+   "kind": "game",
+   "date": "2026-11-12",
+   "platforms": "Switch 2",
+   "source": {
+    "url": "https://www.nintendo.com/us/store/products/metaphor-refantazio-switch-2/",
+    "publisher": "Nintendo store (US)",
+    "says": "Releases 11/12/26"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "ED09419D-2979-4EE9-8691-A4D9CFDEC547",
+   "standIn": null,
+   "note": "Port of a 2024 game: Qloo scores the game itself."
+  },
+  {
+   "key": "pikmin4-ns2",
+   "title": "Pikmin 4 – Switch 2 Edition + Dandori Academy",
+   "kind": "game",
+   "date": "2026-11-12",
+   "platforms": "Switch 2",
+   "source": {
+    "url": "https://www.nintendo.com/en-ca/store/products/pikmin-4-nintendo-switch-2-edition-plus-dandori-academy-switch-2/",
+    "publisher": "Nintendo store (Canada)",
+    "says": "Release date November 12, 2026"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "C8F74D94-C613-488B-B8C7-8D775AF87F2F",
+   "standIn": null,
+   "note": "New edition of Pikmin 4: Qloo scores the game itself."
+  },
+  {
+   "key": "gta6",
+   "title": "Grand Theft Auto VI",
+   "kind": "game",
+   "date": "2026-11-19",
+   "platforms": "PS5, Xbox Series X|S",
+   "source": {
+    "url": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+    "publisher": "Rockstar Games Newswire",
+    "says": "will now release on Thursday, November 19, 2026"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "3B397EFF-7FFB-4763-A13D-E343196DF03E",
+   "standIn": {
+    "title": "Grand Theft Auto V",
+    "qlooId": "FEFD4E0D-D8F2-4BF9-86C9-06949DE82BCD",
+    "reason": "GTA VI is in Qloo but has no audience score before launch; GTA V is the previous game in the series."
+   }
+  },
+  {
+   "key": "hunger-games-sotr",
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "kind": "movie",
+   "date": "2026-11-20",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "November 20, 2026 (wide, Lionsgate)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "5FA52F15-70F2-4E2C-8EA1-94D271F78AB4",
+   "standIn": {
+    "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+    "qlooId": "0063BFEC-EB8C-458D-A0BF-D7028F5294F6",
+    "reason": "Upcoming films rarely have a Qloo score; the previous film does."
+   }
+  },
+  {
+   "key": "focker-in-law",
+   "title": "Focker-in-Law",
+   "kind": "movie",
+   "date": "2026-11-25",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "November 25, 2026 (wide, Universal)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "E91D7A66-6147-4228-A659-1639AEF39614",
+   "standIn": {
+    "title": "Meet the Fockers",
+    "qlooId": "EF270065-6364-4867-8D0F-6BE4A3CA6538",
+    "reason": "Earlier film in the series."
+   }
+  },
+  {
+   "key": "dqm-withered",
+   "title": "Dragon Quest Monsters: The Withered World",
+   "kind": "game",
+   "date": "2026-12-03",
+   "platforms": "PC, PS5, Switch, Switch 2, Xbox",
+   "source": {
+    "url": "https://press.na.square-enix.com/DRAGON-QUEST-MONSTERS-The-Withered-World",
+    "publisher": "Square Enix press hub",
+    "says": "Release date 12/3/2026"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Dragon Quest XI: Echoes of an Elusive Age",
+    "qlooId": "DB84F0D6-EF20-4779-9F9E-B5D1B02116B7",
+    "reason": "The previous Monsters game (The Dark Prince) has no Qloo score; Dragon Quest XI is the series' best-known recent game."
+   }
+  },
+  {
+   "key": "dow4",
+   "title": "Warhammer 40,000: Dawn of War IV",
+   "kind": "game",
+   "date": "2026-12-03",
+   "platforms": "PC",
+   "source": {
+    "url": "https://press.kochmedia.com/en-AU/DAWN-OF-WAR-IV-NOW-LAUNCHES-ON-DECEMBER-3",
+    "publisher": "PLAION press",
+    "says": "will now launch on December 3"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Warhammer 40,000: Dawn of War II",
+    "qlooId": "A709FF67-210A-43FF-8039-6A0210056266",
+    "reason": "Earlier game in the series."
+   }
+  },
+  {
+   "key": "mh-wilds-ns2",
+   "title": "Monster Hunter Wilds (Switch 2)",
+   "kind": "game",
+   "date": "2026-12-04",
+   "platforms": "Switch 2",
+   "source": {
+    "url": "https://monsterhunter.com/wilds/en-us/switch2",
+    "publisher": "Capcom",
+    "says": "Available Friday, December 4, 2026"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "DBB0785A-A0A4-4BF7-BB7D-DA814B67FA9C",
+   "standIn": {
+    "title": "Monster Hunter Rise",
+    "qlooId": "7296523F-E203-4F2E-AF93-C7AA35BFA09D",
+    "reason": "Wilds has no Qloo score; Rise is the series' last game made for a Nintendo console."
+   }
+  },
+  {
+   "key": "layton-steam",
+   "title": "Professor Layton and the New World of Steam",
+   "kind": "game",
+   "date": "2026-12-10",
+   "platforms": "Switch, Switch 2, PS5, PC",
+   "source": {
+    "url": "https://kotaku.com/professor-layton-and-the-new-world-of-steam-release-date-2000732759",
+    "publisher": "Kotaku",
+    "says": "release date of December 10, 2026"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Professor Layton and the Unwound Future",
+    "qlooId": "FE259261-4C0F-4948-8F19-6C4645F696C8",
+    "reason": "Earlier Layton game with a Qloo score."
+   }
+  },
+  {
+   "key": "poe2",
+   "title": "Path of Exile 2 (1.0)",
+   "kind": "game",
+   "date": "2026-12-11",
+   "platforms": "PC, PS5, Xbox",
+   "source": {
+    "url": "https://www.ign.com/articles/path-of-exile-2-release-date-sets-10-launch-in-december-2026",
+    "publisher": "IGN",
+    "says": "December 11, 2026"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "7B9AA8B3-510E-43E4-BA5B-567AA4A75C24",
+   "standIn": {
+    "title": "Path of Exile",
+    "qlooId": "F0BCBEBA-8055-45A5-B2A7-031F368B0995",
+    "reason": "Path of Exile 2 has no Qloo score yet; the first game shares its account and players."
+   }
+  },
+  {
+   "key": "avengers-doomsday",
+   "title": "Avengers: Doomsday",
+   "kind": "movie",
+   "date": "2026-12-18",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "December 18, 2026 (wide, Disney)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "7EF70140-4061-4893-8917-E17D949E6535",
+   "standIn": {
+    "title": "Avengers: Endgame",
+    "qlooId": "813B0455-6AD2-4802-B4B5-314799249A9F",
+    "reason": "Previous Avengers film, used only if Qloo cannot score Doomsday."
+   }
+  },
+  {
+   "key": "dune-3",
+   "title": "Dune: Part Three",
+   "kind": "movie",
+   "date": "2026-12-18",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "December 18, 2026 (wide, Warner Bros.)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "991136D8-3027-4A42-8340-B2DF0BEBACAB",
+   "standIn": {
+    "title": "Dune: Part Two",
+    "qlooId": "878A5D45-469C-4556-8494-963C2B1D3A95",
+    "reason": "The previous film."
+   }
+  },
+  {
+   "key": "angry-birds-3",
+   "title": "The Angry Birds Movie 3",
+   "kind": "movie",
+   "date": "2026-12-23",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "December 23, 2026 (wide, Paramount)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "1532FCBC-399E-4220-AC86-655487758DF9",
+   "standIn": {
+    "title": "The Angry Birds Movie 2",
+    "qlooId": "B9EC7F73-6199-4978-8422-88BD7CD9B1E2",
+    "reason": "The previous film."
+   }
+  },
+  {
+   "key": "jumanji-open-world",
+   "title": "Jumanji: Open World",
+   "kind": "movie",
+   "date": "2026-12-25",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "December 25, 2026 (wide, Sony)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "E54266F3-B5ED-453C-AAB8-59BF6826B7E4",
+   "standIn": {
+    "title": "Jumanji: The Next Level",
+    "qlooId": "A3A2DD32-AE95-40B9-BDF4-4F654EB46694",
+    "reason": "The previous film."
+   }
+  },
+  {
+   "key": "stranger-than-heaven",
+   "title": "Stranger Than Heaven",
+   "kind": "game",
+   "date": "2027-01-15",
+   "platforms": "PS5, Xbox, PC",
+   "source": {
+    "url": "https://www.sega.co.jp/en/release/260608_3.html",
+    "publisher": "SEGA press release",
+    "says": "STRANGER THAN HEAVEN Launches January 15, 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Yakuza 0",
+    "qlooId": "92BC292C-380E-467C-A287-EC5F2AB55F8C",
+    "reason": "New series from RGG Studio; Yakuza 0 is the studio's best-known game."
+   }
+  },
+  {
+   "key": "beekeeper-2",
+   "title": "The Beekeeper 2",
+   "kind": "movie",
+   "date": "2027-01-15",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "January 15, 2027 (wide, Amazon MGM)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "36324AA9-546D-4E43-B4E9-409C0E96147E",
+   "standIn": {
+    "title": "The Beekeeper",
+    "qlooId": "3A829C06-0C14-456B-8596-A08152406C35",
+    "reason": "The previous film."
+   }
+  },
+  {
+   "key": "fh6-ps5",
+   "title": "Forza Horizon 6 (PS5)",
+   "kind": "game",
+   "date": "2027-01-26",
+   "platforms": "PS5",
+   "source": {
+    "url": "https://forza.net/news/forza-horizon-6-pre-order-ps5",
+    "publisher": "Forza.net",
+    "says": "Standard and Deluxe Editions will be released on January 26, 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Forza Horizon 5",
+    "qlooId": "F83FFF69-93DC-47CD-9885-FF4934B4A2BA",
+    "reason": "Forza Horizon 6 is not in Qloo; Forza Horizon 5 is the previous game."
+   }
+  },
+  {
+   "key": "metroid-ravenous",
+   "title": "Metroid Ravenous",
+   "kind": "game",
+   "date": "2027-01-28",
+   "platforms": "Switch 2",
+   "source": {
+    "url": "https://nintendo.com/us/store/products/metroid-ravenous-switch-2",
+    "publisher": "Nintendo store (US)",
+    "says": "Release date January 28, 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Metroid Dread",
+    "qlooId": "A686CEF5-0166-4956-B291-AA9BBE2A75EB",
+    "reason": "The previous 2D Metroid."
+   }
+  },
+  {
+   "key": "until-dawn-2",
+   "title": "Until Dawn 2",
+   "kind": "game",
+   "date": "2027-01-28",
+   "platforms": "PS5",
+   "source": {
+    "url": "https://blog.playstation.com/2026/09/03/until-dawn-2-launches-january-28",
+    "publisher": "PlayStation Blog",
+    "says": "launches on PS5 on January 28, 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Until Dawn (2015)",
+    "qlooId": "80B5FEB4-1706-4299-93F3-A0806BEF5EBB",
+    "reason": "The original game."
+   }
+  },
+  {
+   "key": "metro-2039",
+   "title": "Metro 2039",
+   "kind": "game",
+   "date": "2027-02-04",
+   "platforms": "PS5, Xbox, PC",
+   "source": {
+    "url": "https://blog.playstation.com/2026/09/03/metro-2039-launches-february-4-2027-ps5-pro-gameplay-revealed",
+    "publisher": "PlayStation Blog",
+    "says": "Metro 2039 launches February 4 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Metro Exodus",
+    "qlooId": "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+    "reason": "The previous game in the series."
+   }
+  },
+  {
+   "key": "ice-age-6",
+   "title": "Ice Age: Boiling Point",
+   "kind": "movie",
+   "date": "2027-02-05",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "February 5, 2027 (wide, 20th Century)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "20AF72F1-9794-4C41-B669-BF258603E820",
+   "standIn": {
+    "title": "Ice Age: Collision Course",
+    "qlooId": "5DEAED2B-6A08-43F9-9967-6FD615E35EBF",
+    "reason": "The previous film."
+   }
+  },
+  {
+   "key": "tomb-raider-atlantis",
+   "title": "Tomb Raider: Legacy of Atlantis",
+   "kind": "game",
+   "date": "2027-02-12",
+   "platforms": "PS5, Xbox, Switch 2, PC",
+   "source": {
+    "url": "https://playtombraider.com/en-us/news/articles/preorders-are-open",
+    "publisher": "Crystal Dynamics",
+    "says": "releases February 12, 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Shadow of the Tomb Raider",
+    "qlooId": "9105BA76-9E0A-47BC-8BF1-1EC383C18A5E",
+    "reason": "The latest main Tomb Raider game."
+   }
+  },
+  {
+   "key": "narnia-mn",
+   "title": "Narnia: The Magician's Nephew",
+   "kind": "movie",
+   "date": "2027-02-12",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "February 12, 2027 (Netflix, theatrical)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "09D4573C-07F3-4701-897C-CC9B0739C8A1",
+   "standIn": {
+    "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "qlooId": "D97D14FB-4CD2-4B69-B3B9-F5BBD2AD76BE",
+    "reason": "Best-known earlier Narnia film."
+   }
+  },
+  {
+   "key": "gow-laufey",
+   "title": "God of War Laufey",
+   "kind": "game",
+   "date": "2027-02-16",
+   "platforms": "PS5",
+   "source": {
+    "url": "https://forbes.com/sites/brianmazique/2026/07/25/god-of-war-laufey-release-date-has-been-revealed-in-major-announcement",
+    "publisher": "Forbes",
+    "says": "The game will drop on February 16, 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "God of War Ragnarök",
+    "qlooId": "C7603E33-AB15-4872-A8EB-F6CEB39E6D20",
+    "reason": "The previous game in the series."
+   }
+  },
+  {
+   "key": "persona4-revival",
+   "title": "Persona 4 Revival",
+   "kind": "game",
+   "date": "2027-02-18",
+   "platforms": "PS5, Xbox, PC",
+   "source": {
+    "url": "https://www.sega.co.jp/en/release/260608_4.html",
+    "publisher": "SEGA press release",
+    "says": "Persona 4 Revival Launches February 18, 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Persona 4 Golden",
+    "qlooId": "C79599E5-C584-4A0E-92F1-B39BEC7B7D82",
+    "reason": "The game this remake is based on."
+   }
+  },
+  {
+   "key": "fable",
+   "title": "Fable",
+   "kind": "game",
+   "date": "2027-02-23",
+   "platforms": "Xbox, PS5, PC",
+   "source": {
+    "url": "https://www.gamesradar.com/games/rpg/fable-director-happy-to-go-toe-to-toe-with-heavy-hitters-like-persona-and-god-of-war-but-gta-6-is-a-beast-hes-happy-to-avoid-entirely/",
+    "publisher": "GamesRadar+",
+    "says": "its delay into February 23, 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Fable II",
+    "qlooId": "0378D07A-F5A6-49F9-BBA9-8CF6F7F44CCA",
+    "reason": "Qloo has a 'Fable' entry dated 2022 that cannot be confirmed as this game; Fable II is used instead."
+   }
+  },
+  {
+   "key": "trine-6",
+   "title": "Trine 6: Together in Time",
+   "kind": "game",
+   "date": "2027-03-04",
+   "platforms": "PS5, Xbox, Switch 2, PC",
+   "source": {
+    "url": "https://psu.com/news/trine-6-together-in-time-release-date-pushed-to-march-2027",
+    "publisher": "PSU",
+    "says": "delayed to March 4, 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Trine 4: The Nightmare Prince",
+    "qlooId": "13F16103-93F8-43EA-ABFD-D1B772C634A7",
+    "reason": "Trine 5 has no Qloo score; Trine 4 is the latest scored game in the series."
+   }
+  },
+  {
+   "key": "wo-long-2",
+   "title": "Wo Long 2: Wings of Ember",
+   "kind": "game",
+   "date": "2027-03-04",
+   "platforms": "PS5, Xbox, Switch 2, PC",
+   "source": {
+    "url": "https://www.koeitecmoeurope.com/news/return-to-the-demon-infested-world-of-the-three-kingdoms-in-wo-long-2-wings-of-ember-on-4th-march-2027",
+    "publisher": "Koei Tecmo Europe",
+    "says": "will be released worldwide on 4th March 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Nioh 2",
+    "qlooId": "24BA864F-5394-4E98-9762-CEA9B736AD4B",
+    "reason": "Wo Long: Fallen Dynasty has no Qloo score; Nioh 2 is Team NINJA's closest scored game."
+   }
+  },
+  {
+   "key": "grave-seasons",
+   "title": "Grave Seasons",
+   "kind": "game",
+   "date": "2027-03-09",
+   "platforms": "PS5, Xbox, Switch, PC",
+   "source": {
+    "url": "https://bleedingcool.com/games/blumhouse-games-pushes-grave-seasons-release-back-to-march-2027",
+    "publisher": "Bleeding Cool",
+    "says": "will now launch on March 9, 2027"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": null,
+   "standIn": {
+    "title": "Graveyard Keeper",
+    "qlooId": "40C45656-B28F-4181-813D-90BA600BB33D",
+    "reason": "New game with no predecessor: a genre stand-in (dark farming and life sim), weaker than a series stand-in."
+   }
+  },
+  {
+   "key": "sonic-4",
+   "title": "Sonic the Hedgehog 4",
+   "kind": "movie",
+   "date": "2027-03-19",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "March 19, 2027 (wide, Paramount)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "572EDC53-D35D-4E0B-B987-A9B0CA0B5AFD",
+   "standIn": {
+    "title": "Sonic the Hedgehog 3",
+    "qlooId": "E595B4DD-CDE1-4FD1-B4DD-A67A5293493C",
+    "reason": "The previous film."
+   }
+  },
+  {
+   "key": "gxk-supernova",
+   "title": "Godzilla x Kong: Supernova",
+   "kind": "movie",
+   "date": "2027-03-26",
+   "source": {
+    "url": "https://cinemaunited.org/release-calendar",
+    "publisher": "Cinema United release calendar",
+    "says": "March 26, 2027 (wide, Warner Bros.)"
+   },
+   "verifiedOn": "2026-10-23",
+   "qlooId": "5BA6BEDB-F8E6-4D01-B4CB-C9ED35D4DFD9",
+   "standIn": {
+    "title": "Godzilla x Kong: The New Empire",
+    "qlooId": "66F337B9-58EC-4643-B525-BCD68B2440F5",
+    "reason": "The previous film."
+   }
+  }
+ ],
+ "steamEvents": [
+  {
+   "key": "steam-winter-sale-2026",
+   "title": "Steam Winter Sale",
+   "start": "2026-12-17",
+   "end": "2027-01-04",
+   "source": {
+    "url": "https://partner.steamgames.com/doc/marketing/upcoming_events",
+    "publisher": "Valve, Steamworks documentation",
+    "says": "Winter Sale 2026 | December 17, 2026 - January 4, 2027"
+   },
+   "verifiedOn": "2026-10-23"
+  },
+  {
+   "key": "steam-next-fest-feb-2027",
+   "title": "Steam Next Fest",
+   "start": "2027-02-22",
+   "end": "2027-03-01",
+   "source": {
+    "url": "https://partner.steamgames.com/doc/marketing/upcoming_events",
+    "publisher": "Valve, Steamworks documentation",
+    "says": "Next Fest | February 22 - March 1, 2027"
+   },
+   "verifiedOn": "2026-10-23"
+  },
+  {
+   "key": "steam-spring-sale-2027",
+   "title": "Steam Spring Sale",
+   "start": "2027-03-18",
+   "end": "2027-03-25",
+   "source": {
+    "url": "https://partner.steamgames.com/doc/marketing/upcoming_events",
+    "publisher": "Valve, Steamworks documentation",
+    "says": "Spring Sale 2027 | March 18, 2027 - March 25, 2027"
+   },
+   "verifiedOn": "2026-10-23"
+  }
+ ]
+}

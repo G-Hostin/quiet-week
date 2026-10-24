@@ -1,0 +1,260 @@
+.lvl-clash { --lvl: var(--clash); --lvl-soft: var(--clash-soft); }
+.lvl-overlap { --lvl: var(--overlap); --lvl-soft: var(--overlap-soft); }
+.lvl-clear { --lvl: var(--clear); --lvl-soft: var(--clear-soft); }
+.lvl-open { --lvl: var(--open); --lvl-soft: var(--open-soft); }
+
+/* In the meter, every column shares one neutral track so the coloured bars carry the signal. */
+.bar-btn.lvl-clash,
+.bar-btn.lvl-overlap,
+.bar-btn.lvl-clear,
+.bar-btn.lvl-open {
+  background: var(--open-soft);
+}
+
+.cal {
+  padding: clamp(14px, 2.5vw, 24px);
+  display: grid;
+  gap: 16px;
+  min-width: 0;
+}
+
+.cal-scroll {
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  margin: 0 -4px;
+  padding: 0 4px 4px;
+}
+
+.swipe-hint {
+  display: none;
+}
+
+@media (max-width: 660px) {
+  .cal-scroll {
+    -webkit-mask-image: linear-gradient(90deg, #000 85%, transparent);
+    mask-image: linear-gradient(90deg, #000 85%, transparent);
+  }
+  .cal-scroll.at-end {
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+  .swipe-hint {
+    display: block;
+  }
+}
+
+.meter {
+  display: grid;
+  gap: 4px;
+  min-width: 600px;
+}
+
+.meter-col {
+  display: grid;
+  grid-template-rows: 18px 168px 18px 10px;
+  justify-items: stretch;
+  min-width: 0;
+}
+
+.meter-month {
+  font-size: 0.78rem;
+  font-weight: 650;
+  color: var(--ink-2);
+  white-space: nowrap;
+  overflow: visible;
+}
+
+.bar-btn {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: var(--lvl-soft);
+  cursor: pointer;
+}
+
+.bar-btn:hover {
+  filter: brightness(0.97);
+}
+
+.bar {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+  background: var(--lvl);
+  transition: height 320ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.bar-btn[aria-checked="true"] {
+  box-shadow: 0 0 0 2px var(--surface), 0 0 0 4px var(--ink);
+}
+
+.meter-day {
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-align: center;
+  padding-top: 3px;
+}
+
+.meter-marks {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+
+.mark-steam,
+.mark-pick,
+.mark-avoid {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+
+.mark-steam {
+  background: #6b7280;
+  transform: rotate(45deg) scale(0.85);
+}
+
+.mark-pick {
+  background: var(--clear);
+  border-radius: 50%;
+}
+
+.mark-avoid {
+  background: var(--clash);
+  border-radius: 50%;
+}
+
+.legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  color: var(--ink-2);
+}
+
+.legend li {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sw {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  background: var(--lvl);
+}
+
+/* Week card */
+.weekcard {
+  border-top: 1px solid var(--line-soft);
+  padding-top: 16px;
+  display: grid;
+  gap: 12px;
+}
+
+.weekcard-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.pill {
+  flex: none;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 650;
+  background: var(--lvl-soft);
+  color: var(--ink);
+  border: 1px solid var(--lvl);
+}
+
+.weekcard-note {
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--clear-soft);
+}
+
+.weekcard-note.is-avoid {
+  background: var(--clash-soft);
+}
+
+.rels {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.rel {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 12px;
+  padding: 12px;
+  border-radius: 10px;
+  background: var(--bg);
+}
+
+.rel-score {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.35rem;
+  font-weight: 750;
+  letter-spacing: -0.02em;
+  align-self: start;
+}
+
+.rel-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--lvl);
+  flex: none;
+}
+
+.rel-body {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.rel-title {
+  font-weight: 650;
+}
+
+.standin {
+  font-weight: 650;
+  color: var(--ink);
+}
+
+.events {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+  color: var(--ink-2);
+}
+
+@media (max-width: 520px) {
+  .rel {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+  }
+  .weekcard-head {
+    flex-direction: column;
+  }
+}

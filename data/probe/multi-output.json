@@ -1,0 +1,451 @@
+{
+ "stardew-alone games": [
+  {
+   "id": "F0BCBEBA-8055-45A5-B2A7-031F368B0995",
+   "name": "Path of Exile",
+   "affinity": 0.6977760377062806,
+   "image": "https://images.qloo.com/i/F0BCBEBA-8055-45A5-B2A7-031F368B0995-420x-auto.jpg"
+  },
+  {
+   "id": "C79599E5-C584-4A0E-92F1-B39BEC7B7D82",
+   "name": "Persona 4 Golden",
+   "affinity": 0.6533491423136845
+  },
+  {
+   "id": "0378D07A-F5A6-49F9-BBA9-8CF6F7F44CCA",
+   "name": "Fable II",
+   "affinity": 0.6499694555872969
+  },
+  {
+   "id": "C8F74D94-C613-488B-B8C7-8D775AF87F2F",
+   "name": "Pikmin 4",
+   "affinity": 0.646518204363856,
+   "image": "https://images.qloo.com/i/C8F74D94-C613-488B-B8C7-8D775AF87F2F-420x-auto.jpg"
+  },
+  {
+   "id": "BBEDB99D-2B10-438D-B511-DBFD1FA5381B",
+   "name": "Until Dawn",
+   "affinity": 0.6371727795485005,
+   "image": "https://images.qloo.com/i/BBEDB99D-2B10-438D-B511-DBFD1FA5381B-420x-auto.jpg"
+  },
+  {
+   "id": "A686CEF5-0166-4956-B291-AA9BBE2A75EB",
+   "name": "Metroid Dread",
+   "affinity": 0.6224694982618314
+  },
+  {
+   "id": "6BED0640-B460-42CA-8C10-290BD2B1F690",
+   "name": "World of Warcraft",
+   "affinity": 0.6098813935613528,
+   "image": "https://images.qloo.com/i/6BED0640-B460-42CA-8C10-290BD2B1F690-420x-auto.jpg"
+  },
+  {
+   "id": "653F60F6-9E9C-4BEC-903B-B433C602529B",
+   "name": "The Legend of Zelda: Ocarina of Time",
+   "affinity": 0.592285590824755,
+   "image": "https://images.qloo.com/i/653F60F6-9E9C-4BEC-903B-B433C602529B-420x-auto.jpg"
+  },
+  {
+   "id": "92BC292C-380E-467C-A287-EC5F2AB55F8C",
+   "name": "Yakuza 0",
+   "affinity": 0.5626197608382023
+  },
+  {
+   "id": "80B5FEB4-1706-4299-93F3-A0806BEF5EBB",
+   "name": "Until Dawn (2015)",
+   "affinity": 0.5565178544057452
+  },
+  {
+   "id": "9105BA76-9E0A-47BC-8BF1-1EC383C18A5E",
+   "name": "Shadow of the Tomb Raider",
+   "affinity": 0.5452387618308446
+  },
+  {
+   "id": "FEFD4E0D-D8F2-4BF9-86C9-06949DE82BCD",
+   "name": "Grand Theft Auto V",
+   "affinity": 0.5447119129807002,
+   "image": "https://images.qloo.com/i/FEFD4E0D-D8F2-4BF9-86C9-06949DE82BCD-420x-auto.jpg"
+  },
+  {
+   "id": "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+   "name": "Metro Exodus",
+   "affinity": 0.5443246653581127
+  },
+  {
+   "id": "634F3DE3-9375-4EC8-87B9-90C04DA5B940",
+   "name": "Like a Dragon: Infinite Wealth",
+   "affinity": 0.5323210282814836,
+   "image": "https://images.qloo.com/i/634F3DE3-9375-4EC8-87B9-90C04DA5B940-420x-auto.jpg"
+  },
+  {
+   "id": "C7603E33-AB15-4872-A8EB-F6CEB39E6D20",
+   "name": "God of War: Ragnarok",
+   "affinity": 0.5141378984078406,
+   "image": "https://images.qloo.com/i/C7603E33-AB15-4872-A8EB-F6CEB39E6D20-420x-auto.jpg"
+  }
+ ],
+ "stardew+acnh games": [
+  {
+   "id": "C8F74D94-C613-488B-B8C7-8D775AF87F2F",
+   "name": "Pikmin 4",
+   "affinity": 0.7149230884307779,
+   "image": "https://images.qloo.com/i/C8F74D94-C613-488B-B8C7-8D775AF87F2F-420x-auto.jpg"
+  },
+  {
+   "id": "A686CEF5-0166-4956-B291-AA9BBE2A75EB",
+   "name": "Metroid Dread",
+   "affinity": 0.6918060829948954
+  },
+  {
+   "id": "0378D07A-F5A6-49F9-BBA9-8CF6F7F44CCA",
+   "name": "Fable II",
+   "affinity": 0.6624505883050392
+  },
+  {
+   "id": "F0BCBEBA-8055-45A5-B2A7-031F368B0995",
+   "name": "Path of Exile",
+   "affinity": 0.6614538162550677,
+   "image": "https://images.qloo.com/i/F0BCBEBA-8055-45A5-B2A7-031F368B0995-420x-auto.jpg"
+  },
+  {
+   "id": "C79599E5-C584-4A0E-92F1-B39BEC7B7D82",
+   "name": "Persona 4 Golden",
+   "affinity": 0.660990443398404
+  },
+  {
+   "id": "653F60F6-9E9C-4BEC-903B-B433C602529B",
+   "name": "The Legend of Zelda: Ocarina of Time",
+   "affinity": 0.6596871017981807,
+   "image": "https://images.qloo.com/i/653F60F6-9E9C-4BEC-903B-B433C602529B-420x-auto.jpg"
+  },
+  {
+   "id": "BBEDB99D-2B10-438D-B511-DBFD1FA5381B",
+   "name": "Until Dawn",
+   "affinity": 0.6595000782442512,
+   "image": "https://images.qloo.com/i/BBEDB99D-2B10-438D-B511-DBFD1FA5381B-420x-auto.jpg"
+  },
+  {
+   "id": "6BED0640-B460-42CA-8C10-290BD2B1F690",
+   "name": "World of Warcraft",
+   "affinity": 0.5938383238390613,
+   "image": "https://images.qloo.com/i/6BED0640-B460-42CA-8C10-290BD2B1F690-420x-auto.jpg"
+  },
+  {
+   "id": "9105BA76-9E0A-47BC-8BF1-1EC383C18A5E",
+   "name": "Shadow of the Tomb Raider",
+   "affinity": 0.573247924726333
+  },
+  {
+   "id": "C7603E33-AB15-4872-A8EB-F6CEB39E6D20",
+   "name": "God of War: Ragnarok",
+   "affinity": 0.5698404596096699,
+   "image": "https://images.qloo.com/i/C7603E33-AB15-4872-A8EB-F6CEB39E6D20-420x-auto.jpg"
+  },
+  {
+   "id": "92BC292C-380E-467C-A287-EC5F2AB55F8C",
+   "name": "Yakuza 0",
+   "affinity": 0.5606639681373726
+  },
+  {
+   "id": "634F3DE3-9375-4EC8-87B9-90C04DA5B940",
+   "name": "Like a Dragon: Infinite Wealth",
+   "affinity": 0.558551183487082,
+   "image": "https://images.qloo.com/i/634F3DE3-9375-4EC8-87B9-90C04DA5B940-420x-auto.jpg"
+  },
+  {
+   "id": "FEFD4E0D-D8F2-4BF9-86C9-06949DE82BCD",
+   "name": "Grand Theft Auto V",
+   "affinity": 0.5534986740435709,
+   "image": "https://images.qloo.com/i/FEFD4E0D-D8F2-4BF9-86C9-06949DE82BCD-420x-auto.jpg"
+  },
+  {
+   "id": "80B5FEB4-1706-4299-93F3-A0806BEF5EBB",
+   "name": "Until Dawn (2015)",
+   "affinity": 0.5446331952587011
+  },
+  {
+   "id": "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+   "name": "Metro Exodus",
+   "affinity": 0.5424046382669148
+  }
+ ],
+ "rdr2-alone games": [
+  {
+   "id": "FEFD4E0D-D8F2-4BF9-86C9-06949DE82BCD",
+   "name": "Grand Theft Auto V",
+   "affinity": 0.865822991634703,
+   "image": "https://images.qloo.com/i/FEFD4E0D-D8F2-4BF9-86C9-06949DE82BCD-420x-auto.jpg"
+  },
+  {
+   "id": "9105BA76-9E0A-47BC-8BF1-1EC383C18A5E",
+   "name": "Shadow of the Tomb Raider",
+   "affinity": 0.7110654146783633
+  },
+  {
+   "id": "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+   "name": "Metro Exodus",
+   "affinity": 0.7097304235935507
+  },
+  {
+   "id": "80B5FEB4-1706-4299-93F3-A0806BEF5EBB",
+   "name": "Until Dawn (2015)",
+   "affinity": 0.6854304793966352
+  },
+  {
+   "id": "C7603E33-AB15-4872-A8EB-F6CEB39E6D20",
+   "name": "God of War: Ragnarok",
+   "affinity": 0.6772515373803819,
+   "image": "https://images.qloo.com/i/C7603E33-AB15-4872-A8EB-F6CEB39E6D20-420x-auto.jpg"
+  },
+  {
+   "id": "92BC292C-380E-467C-A287-EC5F2AB55F8C",
+   "name": "Yakuza 0",
+   "affinity": 0.6719358690186209
+  },
+  {
+   "id": "634F3DE3-9375-4EC8-87B9-90C04DA5B940",
+   "name": "Like a Dragon: Infinite Wealth",
+   "affinity": 0.6512363695597398,
+   "image": "https://images.qloo.com/i/634F3DE3-9375-4EC8-87B9-90C04DA5B940-420x-auto.jpg"
+  },
+  {
+   "id": "A686CEF5-0166-4956-B291-AA9BBE2A75EB",
+   "name": "Metroid Dread",
+   "affinity": 0.6133970602963591
+  },
+  {
+   "id": "BBEDB99D-2B10-438D-B511-DBFD1FA5381B",
+   "name": "Until Dawn",
+   "affinity": 0.5965400511081554,
+   "image": "https://images.qloo.com/i/BBEDB99D-2B10-438D-B511-DBFD1FA5381B-420x-auto.jpg"
+  },
+  {
+   "id": "C79599E5-C584-4A0E-92F1-B39BEC7B7D82",
+   "name": "Persona 4 Golden",
+   "affinity": 0.5614737470413539
+  },
+  {
+   "id": "C8F74D94-C613-488B-B8C7-8D775AF87F2F",
+   "name": "Pikmin 4",
+   "affinity": 0.527411775541455,
+   "image": "https://images.qloo.com/i/C8F74D94-C613-488B-B8C7-8D775AF87F2F-420x-auto.jpg"
+  },
+  {
+   "id": "0378D07A-F5A6-49F9-BBA9-8CF6F7F44CCA",
+   "name": "Fable II",
+   "affinity": 0.507932994640288
+  },
+  {
+   "id": "653F60F6-9E9C-4BEC-903B-B433C602529B",
+   "name": "The Legend of Zelda: Ocarina of Time",
+   "affinity": 0.5029470788705751,
+   "image": "https://images.qloo.com/i/653F60F6-9E9C-4BEC-903B-B433C602529B-420x-auto.jpg"
+  },
+  {
+   "id": "F0BCBEBA-8055-45A5-B2A7-031F368B0995",
+   "name": "Path of Exile",
+   "affinity": 0.48784080484597325,
+   "image": "https://images.qloo.com/i/F0BCBEBA-8055-45A5-B2A7-031F368B0995-420x-auto.jpg"
+  },
+  {
+   "id": "6BED0640-B460-42CA-8C10-290BD2B1F690",
+   "name": "World of Warcraft",
+   "affinity": 0.4585932166089807,
+   "image": "https://images.qloo.com/i/6BED0640-B460-42CA-8C10-290BD2B1F690-420x-auto.jpg"
+  }
+ ],
+ "rdr2+rdr1 games": [
+  {
+   "id": "FEFD4E0D-D8F2-4BF9-86C9-06949DE82BCD",
+   "name": "Grand Theft Auto V",
+   "affinity": 0.8990691576632576,
+   "image": "https://images.qloo.com/i/FEFD4E0D-D8F2-4BF9-86C9-06949DE82BCD-420x-auto.jpg"
+  },
+  {
+   "id": "92BC292C-380E-467C-A287-EC5F2AB55F8C",
+   "name": "Yakuza 0",
+   "affinity": 0.6547762472757157
+  },
+  {
+   "id": "634F3DE3-9375-4EC8-87B9-90C04DA5B940",
+   "name": "Like a Dragon: Infinite Wealth",
+   "affinity": 0.6461947018704296,
+   "image": "https://images.qloo.com/i/634F3DE3-9375-4EC8-87B9-90C04DA5B940-420x-auto.jpg"
+  },
+  {
+   "id": "9105BA76-9E0A-47BC-8BF1-1EC383C18A5E",
+   "name": "Shadow of the Tomb Raider",
+   "affinity": 0.6443642977791252
+  },
+  {
+   "id": "80B5FEB4-1706-4299-93F3-A0806BEF5EBB",
+   "name": "Until Dawn (2015)",
+   "affinity": 0.6441660459321144
+  },
+  {
+   "id": "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+   "name": "Metro Exodus",
+   "affinity": 0.6387145926856105
+  },
+  {
+   "id": "C7603E33-AB15-4872-A8EB-F6CEB39E6D20",
+   "name": "God of War: Ragnarok",
+   "affinity": 0.6381758872579189,
+   "image": "https://images.qloo.com/i/C7603E33-AB15-4872-A8EB-F6CEB39E6D20-420x-auto.jpg"
+  },
+  {
+   "id": "0378D07A-F5A6-49F9-BBA9-8CF6F7F44CCA",
+   "name": "Fable II",
+   "affinity": 0.59665749649514
+  },
+  {
+   "id": "BBEDB99D-2B10-438D-B511-DBFD1FA5381B",
+   "name": "Until Dawn",
+   "affinity": 0.5960490124597899,
+   "image": "https://images.qloo.com/i/BBEDB99D-2B10-438D-B511-DBFD1FA5381B-420x-auto.jpg"
+  },
+  {
+   "id": "C79599E5-C584-4A0E-92F1-B39BEC7B7D82",
+   "name": "Persona 4 Golden",
+   "affinity": 0.5494330610723352
+  },
+  {
+   "id": "A686CEF5-0166-4956-B291-AA9BBE2A75EB",
+   "name": "Metroid Dread",
+   "affinity": 0.524832243014299
+  },
+  {
+   "id": "653F60F6-9E9C-4BEC-903B-B433C602529B",
+   "name": "The Legend of Zelda: Ocarina of Time",
+   "affinity": 0.520664881485938,
+   "image": "https://images.qloo.com/i/653F60F6-9E9C-4BEC-903B-B433C602529B-420x-auto.jpg"
+  },
+  {
+   "id": "C8F74D94-C613-488B-B8C7-8D775AF87F2F",
+   "name": "Pikmin 4",
+   "affinity": 0.46784385121429795,
+   "image": "https://images.qloo.com/i/C8F74D94-C613-488B-B8C7-8D775AF87F2F-420x-auto.jpg"
+  },
+  {
+   "id": "6BED0640-B460-42CA-8C10-290BD2B1F690",
+   "name": "World of Warcraft",
+   "affinity": 0.4400584040403668,
+   "image": "https://images.qloo.com/i/6BED0640-B460-42CA-8C10-290BD2B1F690-420x-auto.jpg"
+  },
+  {
+   "id": "F0BCBEBA-8055-45A5-B2A7-031F368B0995",
+   "name": "Path of Exile",
+   "affinity": 0.4358815080022994,
+   "image": "https://images.qloo.com/i/F0BCBEBA-8055-45A5-B2A7-031F368B0995-420x-auto.jpg"
+  }
+ ],
+ "hk+ori+dc games": [
+  {
+   "id": "A686CEF5-0166-4956-B291-AA9BBE2A75EB",
+   "name": "Metroid Dread",
+   "affinity": 0.8511498846397589
+  },
+  {
+   "id": "C8F74D94-C613-488B-B8C7-8D775AF87F2F",
+   "name": "Pikmin 4",
+   "affinity": 0.7001660731974415,
+   "image": "https://images.qloo.com/i/C8F74D94-C613-488B-B8C7-8D775AF87F2F-420x-auto.jpg"
+  },
+  {
+   "id": "F0BCBEBA-8055-45A5-B2A7-031F368B0995",
+   "name": "Path of Exile",
+   "affinity": 0.6666218875113661,
+   "image": "https://images.qloo.com/i/F0BCBEBA-8055-45A5-B2A7-031F368B0995-420x-auto.jpg"
+  },
+  {
+   "id": "BA18F084-40D4-44AF-A0FF-A680155E5E07",
+   "name": "Metro Exodus",
+   "affinity": 0.6666051712139032
+  },
+  {
+   "id": "9105BA76-9E0A-47BC-8BF1-1EC383C18A5E",
+   "name": "Shadow of the Tomb Raider",
+   "affinity": 0.6496946955219832
+  },
+  {
+   "id": "C7603E33-AB15-4872-A8EB-F6CEB39E6D20",
+   "name": "God of War: Ragnarok",
+   "affinity": 0.6408933901037918,
+   "image": "https://images.qloo.com/i/C7603E33-AB15-4872-A8EB-F6CEB39E6D20-420x-auto.jpg"
+  },
+  {
+   "id": "653F60F6-9E9C-4BEC-903B-B433C602529B",
+   "name": "The Legend of Zelda: Ocarina of Time",
+   "affinity": 0.5914689256495701,
+   "image": "https://images.qloo.com/i/653F60F6-9E9C-4BEC-903B-B433C602529B-420x-auto.jpg"
+  },
+  {
+   "id": "6BED0640-B460-42CA-8C10-290BD2B1F690",
+   "name": "World of Warcraft",
+   "affinity": 0.5606336361582221,
+   "image": "https://images.qloo.com/i/6BED0640-B460-42CA-8C10-290BD2B1F690-420x-auto.jpg"
+  },
+  {
+   "id": "92BC292C-380E-467C-A287-EC5F2AB55F8C",
+   "name": "Yakuza 0",
+   "affinity": 0.5599099115613295
+  },
+  {
+   "id": "634F3DE3-9375-4EC8-87B9-90C04DA5B940",
+   "name": "Like a Dragon: Infinite Wealth",
+   "affinity": 0.5582451214657546,
+   "image": "https://images.qloo.com/i/634F3DE3-9375-4EC8-87B9-90C04DA5B940-420x-auto.jpg"
+  },
+  {
+   "id": "0378D07A-F5A6-49F9-BBA9-8CF6F7F44CCA",
+   "name": "Fable II",
+   "affinity": 0.5526261288138976
+  },
+  {
+   "id": "BBEDB99D-2B10-438D-B511-DBFD1FA5381B",
+   "name": "Until Dawn",
+   "affinity": 0.54477125576212,
+   "image": "https://images.qloo.com/i/BBEDB99D-2B10-438D-B511-DBFD1FA5381B-420x-auto.jpg"
+  },
+  {
+   "id": "C79599E5-C584-4A0E-92F1-B39BEC7B7D82",
+   "name": "Persona 4 Golden",
+   "affinity": 0.5399572799967189
+  },
+  {
+   "id": "80B5FEB4-1706-4299-93F3-A0806BEF5EBB",
+   "name": "Until Dawn (2015)",
+   "affinity": 0.5243687271353874
+  },
+  {
+   "id": "FEFD4E0D-D8F2-4BF9-86C9-06949DE82BCD",
+   "name": "Grand Theft Auto V",
+   "affinity": 0.4706521926544634,
+   "image": "https://images.qloo.com/i/FEFD4E0D-D8F2-4BF9-86C9-06949DE82BCD-420x-auto.jpg"
+  }
+ ],
+ "stardew+acnh films": [
+  {
+   "id": "7EF70140-4061-4893-8917-E17D949E6535",
+   "name": "Avengers: Doomsday",
+   "affinity": 0.7405425957980397,
+   "image": "https://images.qloo.com/i/7EF70140-4061-4893-8917-E17D949E6535-420x-auto.jpg"
+  }
+ ],
+ "rdr2+rdr1 films": [
+  {
+   "id": "7EF70140-4061-4893-8917-E17D949E6535",
+   "name": "Avengers: Doomsday",
+   "affinity": 0.6962856949452702,
+   "image": "https://images.qloo.com/i/7EF70140-4061-4893-8917-E17D949E6535-420x-auto.jpg"
+  }
+ ],
+ "hk+ori+dc films": [
+  {
+   "id": "7EF70140-4061-4893-8917-E17D949E6535",
+   "name": "Avengers: Doomsday",
+   "affinity": 0.6847674780075628,
+   "image": "https://images.qloo.com/i/7EF70140-4061-4893-8917-E17D949E6535-420x-auto.jpg"
+  }
+ ]
+}

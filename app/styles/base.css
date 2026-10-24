@@ -1,0 +1,286 @@
+:root {
+  --bg: #eef0f3;
+  --surface: #ffffff;
+  --ink: #15171c;
+  --ink-2: #3a3f49;
+  --muted: #5d6470;
+  --line: #d8dce2;
+  --line-soft: #e6e9ed;
+
+  --clash: #d5432f;
+  --overlap: #e5a01a;
+  --clear: #2e9a68;
+  --open: #c4c9d1;
+  --clash-soft: #fbe4df;
+  --overlap-soft: #fcf0d1;
+  --clear-soft: #ddf1e7;
+  --open-soft: #eceef1;
+  --focus: #2f5bea;
+
+  --radius: 14px;
+  --radius-sm: 8px;
+  --shadow: 0 1px 0 rgba(21, 23, 28, 0.04), 0 8px 24px -12px rgba(21, 23, 28, 0.18);
+  --page: 1120px;
+  --pad: clamp(16px, 4vw, 32px);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 72px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+h3 {
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+}
+
+p {
+  margin: 0;
+}
+
+.wrap {
+  width: 100%;
+  max-width: var(--page);
+  margin: 0 auto;
+  padding: 0 var(--pad);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.small {
+  font-size: 0.875rem;
+}
+
+.tiny {
+  font-size: 0.78rem;
+}
+
+/* Schibsted Grotesk's tabular figures also widen "." and ",", so numbers keep proportional figures. */
+.num {
+  font-variant-numeric: lining-nums;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Header */
+.top {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(238, 240, 243, 0.86);
+  backdrop-filter: saturate(1.4) blur(10px);
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.top .wrap {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 60px;
+  min-width: 0;
+}
+
+.wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 800;
+  font-size: 1.08rem;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.wordmark-mark {
+  display: inline-grid;
+  grid-template-columns: repeat(5, 3px);
+  align-items: end;
+  gap: 2px;
+  height: 18px;
+}
+
+.wordmark-mark i {
+  display: block;
+  width: 3px;
+  border-radius: 2px;
+  background: var(--ink);
+}
+
+.nav {
+  display: flex;
+  gap: 4px;
+  margin-left: auto;
+  min-width: 0;
+}
+
+.nav a {
+  padding: 6px 10px;
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--ink-2);
+  font-size: 0.92rem;
+}
+
+.nav a:hover {
+  background: var(--surface);
+}
+
+@media (max-width: 720px) {
+  .nav .nav-section {
+    display: none;
+  }
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 999px;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #2a2e37;
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--ink);
+  border-color: var(--line);
+}
+
+.btn-ghost:hover {
+  background: var(--surface);
+}
+
+.btn-small {
+  min-height: 36px;
+  padding: 0 14px;
+  font-size: 0.9rem;
+}
+
+/* Sections */
+.section {
+  padding: clamp(36px, 6vw, 64px) 0 0;
+}
+
+.section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px 24px;
+  margin-bottom: 18px;
+}
+
+.section-head p {
+  max-width: 62ch;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.foot {
+  margin-top: 72px;
+  padding: 28px 0 48px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.foot .wrap {
+  display: grid;
+  gap: 8px;
+}

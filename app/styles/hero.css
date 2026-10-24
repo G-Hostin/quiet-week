@@ -1,0 +1,301 @@
+.hero {
+  padding: clamp(28px, 5vw, 56px) 0 0;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+  gap: clamp(24px, 4vw, 48px);
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: clamp(2.3rem, 5.6vw, 4.1rem);
+  line-height: 1.02;
+  letter-spacing: -0.035em;
+  font-weight: 800;
+  max-width: 12ch;
+}
+
+.hero-lede {
+  margin-top: 16px;
+  font-size: clamp(1.02rem, 1.5vw, 1.15rem);
+  color: var(--ink-2);
+  max-width: 50ch;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 22px 0 10px;
+}
+
+/* Contrast figure */
+.contrast {
+  margin: 0;
+  padding: clamp(16px, 2.4vw, 22px);
+  display: grid;
+  gap: 14px;
+  min-width: 0;
+}
+
+.contrast-cap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 12px;
+  font-weight: 650;
+}
+
+.mini {
+  display: grid;
+  gap: 8px;
+  padding: 10px;
+  margin: 0 -10px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+
+.mini:hover {
+  background: var(--bg);
+}
+
+.mini-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.mini-name {
+  font-weight: 650;
+}
+
+.mini-gta {
+  font-size: 0.9rem;
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+
+.mini-gta strong {
+  font-size: 1.15rem;
+  margin-left: 4px;
+}
+
+.mini-gta.gta-yes strong { color: var(--clash); }
+.mini-gta.gta-maybe strong { color: #a86f00; }
+.mini-gta.gta-no strong { color: var(--clear); }
+
+.mini-bars {
+  display: grid;
+  gap: 3px;
+  height: 72px;
+}
+
+.mini-col {
+  display: flex;
+  align-items: flex-end;
+  border-radius: 4px;
+  background: var(--open-soft);
+}
+
+.mini-col.is-gta {
+  box-shadow: 0 0 0 2px var(--surface), 0 0 0 3.5px var(--ink);
+}
+
+.mini-bar {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  background: var(--lvl);
+}
+
+.mini-axis {
+  display: grid;
+  gap: 3px;
+  font-size: 0.72rem;
+  color: var(--muted);
+  margin-top: -6px;
+}
+
+.mini-axis span {
+  white-space: nowrap;
+  overflow: visible;
+}
+
+.mini-axis .is-gta {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.contrast-note {
+  border-top: 1px solid var(--line-soft);
+  padding-top: 10px;
+}
+
+/* Example picker */
+.picker {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: clamp(24px, 4vw, 40px);
+  padding: 8px;
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  border-radius: 999px;
+  box-shadow: var(--shadow);
+  min-width: 0;
+}
+
+.picker-label {
+  padding-left: 10px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  min-width: 0;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  min-height: 40px;
+  padding: 8px 14px;
+  text-align: left;
+  background: var(--bg);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  cursor: pointer;
+  min-width: 0;
+}
+
+.chip:hover {
+  border-color: var(--line);
+}
+
+.chip[aria-pressed="true"] {
+  background: var(--ink);
+  color: #fff;
+}
+
+.chip-label {
+  font-weight: 650;
+}
+
+.chip-sub {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.chip[aria-pressed="true"] .chip-sub {
+  color: #c9ced6;
+}
+
+@media (max-width: 900px) {
+  .hero-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .picker {
+    border-radius: var(--radius);
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .picker-label {
+    padding: 4px 6px 0;
+  }
+  .chips {
+    flex-direction: column;
+  }
+  .chip {
+    border-radius: 10px;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 420px) {
+  .mini-axis span:not(.is-gta) {
+    font-size: 0.66rem;
+  }
+  .chip-sub {
+    display: none;
+  }
+}
+
+/* Your game */
+.game {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  gap: 20px 24px;
+  padding: clamp(16px, 2.6vw, 24px);
+}
+
+.game-main {
+  display: grid;
+  gap: 6px;
+  align-content: start;
+}
+
+.game-pitch {
+  color: var(--ink-2);
+  max-width: 60ch;
+}
+
+.game-audience {
+  display: grid;
+  gap: 8px;
+  align-content: start;
+}
+
+.covers {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+
+.cover {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.cover img,
+.cover-blank {
+  flex: none;
+  width: 36px;
+  height: 46px;
+  object-fit: cover;
+  border-radius: 5px;
+  background: var(--open-soft);
+}
+
+.cover-blank {
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.cover-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  min-width: 0;
+}
+
+@media (max-width: 720px) {
+  .game {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

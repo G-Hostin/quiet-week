@@ -1,0 +1,179 @@
+{
+ "The Hunger Games: The Ballad of Songbirds & Snakes": [
+  {
+   "id": "0063BFEC-EB8C-458D-A0BF-D7028F5294F6",
+   "name": "The Hunger Games: The Ballad of Songbirds & Snakes",
+   "date": "2023-11-17",
+   "img": true,
+   "pop": 0.9958761105893276
+  },
+  {
+   "id": "526DA082-8186-4149-95F9-DD14ED56AEA4",
+   "name": "The Hunger Games",
+   "date": "2012-03-23",
+   "img": true,
+   "pop": 0.9990823806285153
+  },
+  {
+   "id": "ECFA2EC6-55FD-4CE7-ADA7-12A4A41B0A4A",
+   "name": "The Hunger Games: Catching Fire",
+   "date": "2013-11-22",
+   "img": true,
+   "pop": 0.9988124925780786
+  },
+  {
+   "id": "6E903242-F55A-44EB-ADAF-38DF464B91A5",
+   "name": "The Hunger Games: Mockingjay - Part 1",
+   "date": "2014-11-21",
+   "img": true,
+   "pop": 0.9962863404259913
+  }
+ ],
+ "Meet the Fockers": [
+  {
+   "id": "EF270065-6364-4867-8D0F-6BE4A3CA6538",
+   "name": "Meet the Fockers",
+   "date": "2004-12-22",
+   "img": true,
+   "pop": 0.9734646068810657
+  },
+  {
+   "id": "1D97C707-C9AA-483F-BDE1-18A121FCAA8E",
+   "name": "Meet the Blacks",
+   "date": "2016-04-01",
+   "img": true,
+   "pop": 0.9894311839448997
+  },
+  {
+   "id": "FB1AFED5-A144-4470-B9F8-B1D940FAFE6D",
+   "name": "Meet Joe Black",
+   "date": "1998-11-13",
+   "img": true,
+   "pop": 0.9874663989377206
+  },
+  {
+   "id": "644AC40E-C7B5-4B77-90B5-6E54990BA85B",
+   "name": "Meet the Robinsons",
+   "date": "2007-03-30",
+   "img": true,
+   "pop": 0.981744772268463
+  }
+ ],
+ "Jumanji: The Next Level": [
+  {
+   "id": "A3A2DD32-AE95-40B9-BDF4-4F654EB46694",
+   "name": "Jumanji: The Next Level",
+   "date": "2019-12-13",
+   "img": true,
+   "pop": 0.9886862929256944
+  },
+  {
+   "id": "44994982-B4C4-4C17-B9D5-52945A21A217",
+   "name": "Ride Along 2",
+   "date": "2016-01-15",
+   "img": true,
+   "pop": 0.9517548121039393
+  },
+  {
+   "id": "87AFF60B-50E1-4B3C-B820-E031772CE0AB",
+   "name": "DD Next Level",
+   "date": "2025-05-16",
+   "img": true,
+   "pop": 0.8017186471051808
+  },
+  {
+   "id": "4131C77D-9759-498D-9BE6-B5E9376212BE",
+   "name": "Next Level",
+   "date": "2019-09-06",
+   "img": true
+  }
+ ],
+ "The Beekeeper": [
+  {
+   "id": "3A829C06-0C14-456B-8596-A08152406C35",
+   "name": "The Beekeeper",
+   "date": "2024-01-12",
+   "img": true,
+   "pop": 0.9822089797152141
+  },
+  {
+   "id": "85897F8B-EFEF-4E6B-931D-48D54837693D",
+   "name": "The Beekeeper",
+   "date": "1986-10-23",
+   "img": true,
+   "pop": 0.8138852004188663
+  },
+  {
+   "id": "36324AA9-546D-4E43-B4E9-409C0E96147E",
+   "name": "The Beekeeper 2",
+   "date": "2027-01-15",
+   "img": false
+  },
+  {
+   "id": "E1007D36-F09C-4D8B-9104-749AB8A9FDD3",
+   "name": "The Beekeeper",
+   "date": "2014-01-30",
+   "img": true
+  }
+ ],
+ "Ice Age: Collision Course": [
+  {
+   "id": "5DEAED2B-6A08-43F9-9967-6FD615E35EBF",
+   "name": "Ice Age: Collision Course",
+   "date": "2016-07-22",
+   "img": true,
+   "pop": 0.9644395504744632
+  },
+  {
+   "id": "C3E43465-DFDE-4D2B-B8FB-069D511DB4E6",
+   "name": "Ice Age",
+   "date": "2002-03-15",
+   "img": true,
+   "pop": 0.991288013731904
+  },
+  {
+   "id": "0FB278C1-B41D-4D15-B100-B298C867C83C",
+   "name": "Ice Age: Dawn of the Dinosaurs",
+   "date": "2009-07-01",
+   "img": true,
+   "pop": 0.9807084021547862
+  },
+  {
+   "id": "87D813E7-ED45-47D9-B7C2-34D485B7B64F",
+   "name": "Ice Age: The Meltdown",
+   "date": "2006-03-31",
+   "img": true,
+   "pop": 0.979941920091546
+  }
+ ],
+ "Avengers: Endgame": [
+  {
+   "id": "813B0455-6AD2-4802-B4B5-314799249A9F",
+   "name": "Avengers: Endgame",
+   "date": "2019-04-26",
+   "img": true,
+   "pop": 0.9994062462890393
+  },
+  {
+   "id": "DB9309E2-C3A1-46DE-8C63-8F108A837ABC",
+   "name": "Avengers: Secret Wars",
+   "date": "2027-12-17",
+   "img": true,
+   "pop": 0.7703252690783863
+  },
+  {
+   "id": "7EF70140-4061-4893-8917-E17D949E6535",
+   "name": "Avengers: Doomsday",
+   "date": "2026-12-18",
+   "img": true,
+   "pop": 0.809372672215565
+  },
+  {
+   "id": "EDA2A941-4746-40FF-A48D-66FA4EFE2D17",
+   "name": "The Avengers",
+   "date": "2012-05-04",
+   "img": true,
+   "pop": 0.999330677634917
+  }
+ ]
+}

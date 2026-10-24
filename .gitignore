@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+.next
+node_modules
+out
+*.tsbuildinfo
+next-env.d.ts
+.cache
+screenshots
+
+# internal working notes
+BRIEF_BUILD.md
+RAPPORT.md
+PROGRESS.md
+journal.md
