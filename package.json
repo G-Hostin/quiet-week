@@ -14,7 +14,7 @@
     "check:secrets": "python3 -I scripts/check-secrets.py"
   },
   "dependencies": {
-    "next": "^15.5.0",
+    "next": "^16.4.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
@@ -25,6 +25,6 @@
     "playwright-core": "^1.55.0",
     "tsx": "^4.20.0",
     "typescript": "^5.9.0",
-    "vitest": "^3.2.0"
+    "vitest": "^5.0.5"
   }
 }
