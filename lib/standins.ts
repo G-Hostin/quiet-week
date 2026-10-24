@@ -39,6 +39,17 @@ export function resolveScore(r: Release, scores: Map<string, number>): Resolved 
   return { affinity: null, via: "none", scoredId: null };
 }
 
+/**
+ * The game the user named that this release continues, if any: its own Qloo entity or its stand-in
+ * is one of the audience games. Qloo never scores a signal entity against itself, so without this
+ * check a sequel of a game the user named would silently drop out of the calendar.
+ */
+export function namedMatch(r: Release, audience: { id: string; name: string }[]): string | null {
+  if (r.kind !== "game") return null;
+  const hit = audience.find((a) => (r.qlooId && a.id === r.qlooId) || (r.standIn && a.id === r.standIn.qlooId));
+  return hit ? hit.name : null;
+}
+
 /** The stand-in table, as the agent sees it (titles only, no secrets). */
 export function standInTable(releases: Release[]) {
   return releases

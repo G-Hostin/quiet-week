@@ -19,5 +19,5 @@ export function rel(p: Partial<Release> & { date: string }): Release {
 
 export function scored(p: Partial<ScoredRelease> & { date: string; affinity: number | null; level: Level }): ScoredRelease {
   const base = rel(p);
-  return { ...base, affinity: p.affinity, level: p.level, via: p.via ?? (p.affinity === null ? "none" : "own"), rank: p.rank };
+  return { ...base, affinity: p.affinity, level: p.level, via: p.via ?? (p.affinity === null ? "none" : "own"), rank: p.rank, namedAs: p.namedAs };
 }

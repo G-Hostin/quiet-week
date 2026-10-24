@@ -67,6 +67,7 @@ export function analyzeTools(s: Session): Tool[] {
           weeks_to_avoid: b.verdict.avoid.map((p) => ({ week: `week of ${shortDate(p.weekStart)}`, why: p.sentence })),
           gta: b.verdict.gta,
           closest: closest.map((r) => ({ title: r.title, date: r.date, affinity: round2(r.affinity!), via: r.via === "stand-in" ? r.standIn!.title : "own score" })),
+          sequels_of_your_games: b.scored.filter((r) => r.via === "named").map((r) => ({ title: r.title, date: r.date, continues: r.namedAs })),
           rule: DEFAULT_RULE,
         };
       },

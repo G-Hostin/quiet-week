@@ -3,6 +3,14 @@ import { addDays, daysBetweenInclusiveOverlap, mondayOnOrAfter } from "./dates";
 import { levelRank, maxLevel } from "./rules";
 import type { Level, ScoredRelease, SteamEvent, Week } from "./types";
 
+/**
+ * Weight of a release in the week logic: its Qloo score, or 1 when it continues a game the user named
+ * (Qloo gives no number for those, but they share the user's players by definition).
+ */
+export function weightOf(r: ScoredRelease): number | null {
+  return r.via === "named" ? 1 : r.affinity;
+}
+
 /** A Steam storewide event "covers" a week when it runs on at least this many of its 7 days. */
 export const STEAM_EVENT_MIN_DAYS = 3;
 
@@ -21,8 +29,9 @@ export function buildWeeks(
     let peak: number | null = null;
     let peakKey: string | null = null;
     for (const r of inWeek) {
-      if (r.affinity !== null && (peak === null || r.affinity > peak)) {
-        peak = r.affinity;
+      const w = weightOf(r);
+      if (w !== null && (peak === null || w > peak)) {
+        peak = w;
         peakKey = r.key;
       }
     }
@@ -39,7 +48,8 @@ export function gamePeak(week: Week, byKey: Map<string, ScoredRelease>): number 
   let p = 0;
   for (const k of week.releaseKeys) {
     const r = byKey.get(k);
-    if (r && r.kind === "game" && r.affinity !== null) p = Math.max(p, r.affinity);
+    const w = r ? weightOf(r) : null;
+    if (r && r.kind === "game" && w !== null) p = Math.max(p, w);
   }
   return p;
 }
@@ -107,11 +117,16 @@ export function pickAvoid(weeks: Week[], releases: ScoredRelease[], n = 2): Week
     .sort((a, b) => a.index - b.index);
 }
 
+function heavier(r: ScoredRelease | undefined, best: ScoredRelease | null): boolean {
+  const w = r ? weightOf(r) : null;
+  return !!r && r.kind === "game" && w !== null && (!best || w > (weightOf(best) ?? 0));
+}
+
 function topGameKey(week: Week, byKey: Map<string, ScoredRelease>): string | null {
   let best: ScoredRelease | null = null;
   for (const k of week.releaseKeys) {
     const r = byKey.get(k);
-    if (r && r.kind === "game" && r.affinity !== null && (!best || r.affinity > (best.affinity ?? 0))) best = r;
+    if (heavier(r, best)) best = r!;
   }
   return best ? best.key : null;
 }
@@ -123,7 +138,7 @@ function neighbourGameKey(i: number, weeks: Week[], byKey: Map<string, ScoredRel
     if (j < 0 || j >= weeks.length) continue;
     for (const k of weeks[j].releaseKeys) {
       const r = byKey.get(k);
-      if (r && r.kind === "game" && r.affinity !== null && (!best || r.affinity > (best.affinity ?? 0))) best = r;
+      if (heavier(r, best)) best = r!;
     }
   }
   return best ? best.key : null;

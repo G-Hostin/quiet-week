@@ -34,7 +34,13 @@ export function barHeight(level: Level, peak: number | null): number {
   }
 }
 
+/** The score shown next to a release: its number, or "yours" when it continues a game the user named. */
+export function scoreText(r: ScoredRelease): string {
+  return r.via === "named" ? "yours" : aff(r.affinity);
+}
+
 export function measuredAs(r: ScoredRelease): string {
+  if (r.via === "named") return `continues ${r.namedAs}, which you named`;
   if (r.via === "stand-in" && r.standIn) return `through ${r.standIn.title}`;
   if (r.via === "own") return "its own Qloo score";
   return "no Qloo score";

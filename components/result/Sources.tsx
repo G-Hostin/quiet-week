@@ -2,7 +2,8 @@
 
 import { useRef, useState } from "react";
 import { shortDate } from "@/lib/dates";
-import { aff, hostOf, kindLabel, measuredAs } from "@/lib/format";
+import { aff, hostOf, kindLabel, measuredAs, scoreText } from "@/lib/format";
+import { weightOf } from "@/lib/calendar";
 import type { Analysis, SteamEvent } from "@/lib/types";
 import StepList from "../StepList";
 import { ChevronDown } from "../Icons";
@@ -16,7 +17,7 @@ const TABS = [
 type Tab = (typeof TABS)[number]["id"];
 
 function Releases({ a, steamEvents, onCall }: { a: Analysis; steamEvents: SteamEvent[]; onCall: (i: number) => void }) {
-  const rows = [...a.releases].sort((x, y) => (y.affinity ?? -1) - (x.affinity ?? -1));
+  const rows = [...a.releases].sort((x, y) => (weightOf(y) ?? -1) - (weightOf(x) ?? -1));
   return (
     <>
       <p className="src-intro">
@@ -42,7 +43,7 @@ function Releases({ a, steamEvents, onCall }: { a: Analysis; steamEvents: SteamE
                   <span className="dot" aria-hidden="true" /> {r.title} <span className="muted">{kindLabel(r.kind)}</span>
                 </th>
                 <td className="num nowrap" data-l="Out">{shortDate(r.date)}</td>
-                <td className="num r strong" data-l="Overlap">{aff(r.affinity)}</td>
+                <td className="num r strong" data-l="Overlap">{scoreText(r)}</td>
                 <td data-l="Measured">{measuredAs(r)}</td>
                 <td className="num" data-l="Qloo call">
                   {r.callIndex !== undefined ? (
@@ -155,7 +156,7 @@ export default function Sources({ analysis, steamEvents }: { analysis: Analysis;
   const [tab, setTab] = useState<Tab>("releases");
   const tabRefs = useRef<(HTMLButtonElement | null)[]>([]);
   const standIns = a.releases.filter((r) => r.via === "stand-in").length;
-  const unscored = a.releases.filter((r) => r.affinity === null).length;
+  const unscored = a.releases.filter((r) => r.affinity === null && r.via !== "named").length;
   const calls = a.evidence.calls.length;
 
   function onTabKey(e: React.KeyboardEvent, i: number) {

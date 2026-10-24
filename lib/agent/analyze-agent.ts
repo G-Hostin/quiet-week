@@ -21,7 +21,7 @@ export async function analyzeAudience(input: AnalyzeInput, push?: (s: Step) => v
   const t0 = Date.now();
   const steps: Step[] = [];
   const emit = makeEmitter(steps, t0, push);
-  const s = new Session(input.audience.map((a) => a.id), input.window, emit);
+  const s = new Session(input.audience.map((a) => a.id), input.window, emit, input.audience);
   const tools = analyzeTools(s);
   const names = input.audience.map((a) => a.name);
   emit("think", `Audience: players of ${names.join(", ")}`);

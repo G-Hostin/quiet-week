@@ -1,5 +1,6 @@
+import { weightOf } from "@/lib/calendar";
 import { longDate, shortDate } from "@/lib/dates";
-import { aff, hostOf, kindLabel, LEVEL_TEXT } from "@/lib/format";
+import { hostOf, kindLabel, LEVEL_TEXT, scoreText } from "@/lib/format";
 import type { Analysis, ScoredRelease, SteamEvent, Week } from "@/lib/types";
 import { ChevronLeft, ChevronRight, External } from "../Icons";
 
@@ -10,7 +11,7 @@ function Row({ r }: { r: ScoredRelease }) {
         <span className="dot" aria-hidden="true" />
         <span>
           <span className="sr-only">Player overlap </span>
-          {aff(r.affinity)}
+          {scoreText(r)}
         </span>
       </p>
       <div className="rel-body">
@@ -18,7 +19,12 @@ function Row({ r }: { r: ScoredRelease }) {
           {r.title} <span className="rel-kind">{kindLabel(r.kind)}, out {shortDate(r.date)}</span>
         </p>
         <p className="rel-how">
-          {r.via === "stand-in" && r.standIn ? (
+          {r.via === "named" ? (
+            <>
+              It continues <strong>{r.namedAs}</strong>, one of the games you named, so its players are yours. Qloo
+              leaves the games you name out of its own results, so there is no number here: the week counts as red.
+            </>
+          ) : r.via === "stand-in" && r.standIn ? (
             <>
               Measured through <strong>{r.standIn.title}</strong>. {r.standIn.reason}
             </>
@@ -56,7 +62,7 @@ export default function WeekDetail(props: {
   const { week, analysis } = props;
   const byKey = new Map(analysis.releases.map((r) => [r.key, r]));
   const rels = week.releaseKeys.map((k) => byKey.get(k)!).filter(Boolean);
-  rels.sort((x, y) => (y.affinity ?? -1) - (x.affinity ?? -1));
+  rels.sort((x, y) => (weightOf(y) ?? -1) - (weightOf(x) ?? -1));
   const events = week.steamEvents.map((k) => props.steamEvents.find((e) => e.key === k)).filter(Boolean) as SteamEvent[];
   const pick = analysis.verdict.recommended.find((p) => p.weekStart === week.start);
   const avoid = analysis.verdict.avoid.find((p) => p.weekStart === week.start);

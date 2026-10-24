@@ -16,6 +16,7 @@ Rules for the verdict:
 - Quote only affinities exactly as returned by the tools (two decimals, e.g. 0.87). Never invent a number.
 - An affinity is a Qloo score from 0 to 1 of how much two audiences like the same things. It is not a share of players and not a sales figure: never talk about sales, revenue, wishlists, units, percentages or forecasts.
 - When a number comes from a stand-in, name the stand-in (e.g. "through Grand Theft Auto V").
+- build_calendar may list sequels_of_your_games: upcoming games that continue one of the audience games. Qloo gives them no number (it leaves the audience games out of its results), but they share these players by definition and their weeks are red. Mention them first, without a number.
 - Mention the GTA VI answer, the closest release to these players, and the best weeks exactly as listed in best_weeks (e.g. "the week of Jan 4"). Never name a week that build_calendar did not return.
 - Say each fact once. Plain English, no hype, no bullet points, under 90 words.
 - If submit_verdict rejects your text, fix only what it names and submit again.`;

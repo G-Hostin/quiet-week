@@ -49,8 +49,15 @@ export interface ReleaseData {
 
 export interface ScoredRelease extends Release {
   affinity: number | null;
-  /** "own" = Qloo scored the release itself; "stand-in" = scored through its stand-in. */
-  via: "own" | "stand-in" | "none";
+  /**
+   * "own" = Qloo scored the release itself; "stand-in" = scored through its stand-in;
+   * "named" = the release (or its stand-in) is one of the games the user named. Qloo leaves the signal
+   * games out of its own results, so such a release has no score: it continues a series the user's
+   * players already play, and counts as red without a number.
+   */
+  via: "own" | "stand-in" | "named" | "none";
+  /** For via "named": the game the user named that this release continues. */
+  namedAs?: string;
   level: Level;
   /** Rank among scored games (1 = closest to your players). */
   rank?: number;
@@ -80,6 +87,8 @@ export interface GtaBox {
   answer: "yes" | "maybe" | "no" | "unknown";
   affinity: number | null;
   standInTitle: string | null;
+  /** Set when GTA VI continues a game the user named (no number then). */
+  namedAs?: string | null;
   rank: number | null;
   of: number;
   sentence: string;

@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { longDate, monthName, parseDay, shortDate } from "@/lib/dates";
-import { aff, barHeight, LEVEL_TEXT } from "@/lib/format";
+import { aff, barHeight, LEVEL_TEXT, scoreText } from "@/lib/format";
 import type { Analysis, SteamEvent } from "@/lib/types";
 import { Tap } from "../Icons";
 import WeekDetail from "./WeekDetail";
@@ -112,7 +112,7 @@ export default function Calendar(props: {
               const top = w.peakKey ? byKey.get(w.peakKey) : undefined;
               const on = w.start === week.start;
               const tag = recommended.has(w.start) ? ", best week" : avoid.has(w.start) ? ", week to avoid" : "";
-              const label = `Week of ${shortDate(w.start)}: ${LEVEL_TEXT[w.level]}${top ? `, ${top.title} ${aff(top.affinity)}` : ""}${tag}${w.steamEvents.length ? ", Steam event" : ""}`;
+              const label = `Week of ${shortDate(w.start)}: ${LEVEL_TEXT[w.level]}${top ? `, ${top.title} ${scoreText(top)}` : ""}${tag}${w.steamEvents.length ? ", Steam event" : ""}`;
               return (
                 <div className={`meter-col ${on ? "is-on" : ""}`} key={w.start}>
                   <span className="meter-month" aria-hidden="true">{first ? monthName(w.start) : ""}</span>

@@ -1,7 +1,7 @@
 // Presentation helpers for the result view: the plain-language answer, a short reason per picked week,
 // the default selected week and the view chosen from the URL. Pure functions, no new numbers:
 // everything shown comes from the analysis (Qloo scores, sourced dates).
-import { gamePeak } from "./calendar";
+import { gamePeak, weightOf } from "./calendar";
 import { aff } from "./format";
 import type { Analysis, GtaBox, Pick, ScoredRelease, StepKind } from "./types";
 
@@ -25,6 +25,7 @@ export interface Answer {
 export function answerFor(a: Analysis): Answer {
   const g = a.verdict.gta;
   const inWindow = a.releases.some((r) => r.key === GTA_KEY);
+  if (inWindow && g.namedAs) return { tone: "yes", text: "Move away from GTA VI's launch." };
   if (!inWindow || g.affinity === null) return { tone: "unknown", text: "Here are your quietest weeks." };
   if (g.answer === "yes") return { tone: "yes", text: "Move away from GTA VI's launch." };
   if (g.answer === "maybe") return { tone: "maybe", text: "Avoid GTA VI's launch week if you can." };
@@ -42,10 +43,16 @@ function topOfWeek(keys: string[], byKey: Map<string, ScoredRelease>, gamesOnly:
   let best: ScoredRelease | null = null;
   for (const k of keys) {
     const r = byKey.get(k);
-    if (!r || r.affinity === null || (gamesOnly && r.kind !== "game")) continue;
-    if (!best || r.affinity > (best.affinity ?? 0)) best = r;
+    const w = r ? weightOf(r) : null;
+    if (!r || w === null || (gamesOnly && r.kind !== "game")) continue;
+    if (!best || w > (weightOf(best) ?? 0)) best = r;
   }
   return best;
+}
+
+/** "(0.82)", or "(continues Metro Exodus)" for a sequel of a game the user named. */
+export function scoreTag(r: ScoredRelease): string {
+  return r.via === "named" ? `(continues ${r.namedAs})` : `(${aff(r.affinity)})`;
 }
 
 /** A short reason for a recommended or avoided week, built from the same numbers as the verdict. */
@@ -60,13 +67,13 @@ export function weekReason(p: Pick, a: Analysis, kind: "pick" | "avoid"): WeekRe
     const prev = gamePeak(a.weeks[i - 1], byKey);
     if (prev > own) {
       const r = topOfWeek(a.weeks[i - 1].releaseKeys, byKey, true);
-      if (r) return { text: `The week after ${r.title} (${aff(r.affinity)})`, release: r, weekAfter: true };
+      if (r) return { text: `The week after ${r.title} ${scoreTag(r)}`, release: r, weekAfter: true };
     }
   }
   const top = topOfWeek(week.releaseKeys, byKey, false);
   if (!top) return { text: "No big release that week", release: null, weekAfter: false };
   return {
-    text: kind === "pick" ? `Biggest release: ${top.title} (${aff(top.affinity)})` : `${top.title} launches (${aff(top.affinity)})`,
+    text: kind === "pick" ? `Biggest release: ${top.title} ${scoreTag(top)}` : `${top.title} launches ${scoreTag(top)}`,
     release: top,
     weekAfter: false,
   };
@@ -79,7 +86,9 @@ export function answerLede(a: Analysis): string[] {
   const games = a.releases.filter((r) => r.kind === "game" && r.affinity !== null).sort((x, y) => (y.affinity ?? 0) - (x.affinity ?? 0));
   const top = games[0];
   const inWindow = a.releases.some((r) => r.key === GTA_KEY);
-  if (inWindow && g.affinity !== null) {
+  if (inWindow && g.namedAs) {
+    out.push(`GTA VI continues ${g.namedAs}, one of the games you named, so its players are your players. Stay clear of its launch week and the week after.`);
+  } else if (inWindow && g.affinity !== null) {
     const place = g.rank === 1 ? `the highest of the ${g.of} upcoming games Qloo scored` : g.rank ? `${ordinal(g.rank)} of the ${g.of} upcoming games Qloo scored` : "";
     const n = aff(g.affinity);
     if (g.answer === "yes") out.push(`GTA VI shares many of your players: Qloo puts the overlap at ${n} out of 1, ${place}. Stay clear of its launch week and the week after.`);
@@ -87,6 +96,10 @@ export function answerLede(a: Analysis): string[] {
     else out.push(`GTA VI's players are mostly not yours: Qloo puts the overlap at ${n} out of 1, ${place}. Its launch week is not your main risk.`);
   }
   if (top && top.key !== GTA_KEY) out.push(`The upcoming game closest to your players is ${top.title} (${aff(top.affinity)}).`);
+  const sequels = a.releases.filter((r) => r.via === "named" && r.key !== GTA_KEY);
+  if (sequels.length) {
+    out.push(`${listNames(sequels.map((r) => r.title))} ${sequels.length > 1 ? "continue games" : "continues a game"} you named, so ${sequels.length > 1 ? "they share" : "it shares"} your players: ${sequels.length > 1 ? "their weeks are" : "its week is"} marked red.`);
+  }
   return out;
 }
 
