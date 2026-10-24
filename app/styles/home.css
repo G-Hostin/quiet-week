@@ -1,6 +1,6 @@
-/* Landing page */
+/* Landing page: dark hero band (with the header), white work bands, dark final call to action. */
 .hero {
-  padding: clamp(36px, 6vw, 72px) 0 0;
+  padding: clamp(40px, 6vw, 80px) 0 clamp(56px, 8vw, 104px);
 }
 
 .hero-grid {
@@ -11,7 +11,7 @@
 }
 
 .hero h1 {
-  font-size: clamp(2.25rem, 4.8vw, 3.6rem);
+  font-size: clamp(2.3rem, 5vw, 3.8rem);
   line-height: 1.04;
   letter-spacing: -0.035em;
   font-weight: 800;
@@ -26,7 +26,7 @@
 }
 
 .hero-for {
-  margin-top: 12px;
+  margin-top: 14px;
   font-weight: 600;
   max-width: 52ch;
 }
@@ -34,17 +34,19 @@
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 26px;
+  gap: 12px;
+  margin-top: 30px;
 }
 
-/* Figure: an illustration, not a control. No hover, no pointer. */
+/* Figure: an illustration, not a control. No hover, no pointer. It stays light on the dark band: it is the product. */
 .fig {
   margin: 0;
   padding: clamp(16px, 2.4vw, 24px);
   display: grid;
   gap: 18px;
   min-width: 0;
+  border-color: transparent;
+  box-shadow: 0 28px 56px -28px rgba(0, 0, 0, 0.7), 0 2px 6px rgba(0, 0, 0, 0.25);
 }
 
 .fig-cap {
@@ -142,9 +144,9 @@
   font-weight: 700;
 }
 
-/* Sections */
-.home-sec {
-  padding-top: clamp(56px, 8vw, 96px);
+/* Sections: two white work bands in a row read as one surface, so the second one drops its top padding. */
+.band-work + .band-work {
+  padding-top: 0;
 }
 
 .how {
@@ -312,17 +314,24 @@
   font-size: 1rem;
 }
 
+/* Final call to action: a full-width dark band */
 .home-end {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 16px 32px;
-  padding: clamp(20px, 3vw, 32px);
+  gap: 20px 40px;
 }
 
 .home-end h2 {
-  margin-bottom: 4px;
+  margin-bottom: 8px;
+  font-size: clamp(1.6rem, 3.2vw, 2.25rem);
+  letter-spacing: -0.03em;
+}
+
+.home-end-p {
+  color: var(--ink-2);
+  font-size: 1.05rem;
 }
 
 @media (max-width: 960px) {
@@ -360,7 +369,8 @@
   .fig-axis span:not(.is-gta) {
     font-size: 0.66rem;
   }
-  .hero-actions .btn {
+  .hero-actions .btn,
+  .home-end .btn {
     flex: 1 1 100%;
   }
 }

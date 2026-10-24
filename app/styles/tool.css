@@ -1,6 +1,8 @@
 /* The /check tool: header, stepper, step panels, form, confirm, agent progress */
+/* The tool is one white work band; the example shortcuts sit aside on the recessed grey. */
 .tool {
   padding-top: clamp(24px, 4vw, 44px);
+  padding-bottom: clamp(48px, 7vw, 88px);
 }
 
 .tool-head {
@@ -9,7 +11,9 @@
   align-items: center;
   justify-content: space-between;
   gap: 14px 32px;
-  margin-bottom: 22px;
+  padding-bottom: 22px;
+  margin-bottom: clamp(24px, 3.5vw, 36px);
+  border-bottom: 1px solid var(--line);
 }
 
 .tool-head h1 {
@@ -84,7 +88,8 @@
 }
 
 .tool-grid.has-aside {
-  grid-template-columns: minmax(0, 1fr) minmax(0, 320px);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 364px);
+  gap: clamp(24px, 4vw, 56px);
 }
 
 .tool-main {
@@ -96,7 +101,9 @@
 .tool-aside {
   display: grid;
   gap: 8px;
-  padding-top: 4px;
+  padding: 16px;
+  border-radius: var(--radius);
+  background: var(--recess);
 }
 
 .tool-aside h2 {
@@ -107,11 +114,10 @@
   margin-top: 6px;
 }
 
-/* A step */
-.stage.panel {
-  padding: clamp(18px, 3vw, 32px);
+/* A step: straight on the white band, no card */
+.stage {
   display: grid;
-  gap: 24px;
+  gap: 26px;
 }
 
 .stage-head {

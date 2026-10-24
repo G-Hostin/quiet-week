@@ -31,7 +31,7 @@ export default function StepGame(props: {
   const set = (patch: Partial<FormState>) => props.onChange({ ...f, ...patch });
   return (
     <form
-      className="stage panel"
+      className="stage"
       onSubmit={(e) => {
         e.preventDefault();
         props.onSubmit();

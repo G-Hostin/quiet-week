@@ -26,7 +26,7 @@ export default function StepConfirm(props: {
 }) {
   const count = Object.values(props.picked).filter(Boolean).length;
   return (
-    <div className="stage panel" aria-labelledby="step-title">
+    <div className="stage" aria-labelledby="step-title">
       <div className="stage-head">
         <h2 id="step-title" tabIndex={-1}>Are these the right games?</h2>
         <p>Qloo search can pick the wrong title. Check each one, or skip it.</p>

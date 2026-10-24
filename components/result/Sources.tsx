@@ -185,7 +185,7 @@ export default function Sources({ analysis, steamEvents }: { analysis: Analysis;
         <h2 id="sources-title">Sources &amp; method</h2>
         <p>Every number on this page comes from a Qloo call, and every date from a public source.</p>
       </div>
-      <div className="src panel">
+      <div className="src">
         <dl className="src-facts">
           <div><dt>Qloo calls</dt><dd className="num">{calls}</dd></div>
           <div><dt>Releases scored</dt><dd className="num">{a.releases.length - unscored} of {a.releases.length}</dd></div>

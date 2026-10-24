@@ -41,8 +41,9 @@ export default function Answer({ analysis, onShowWeek }: { analysis: Analysis; o
   const g = a.verdict.gta;
   const gtaRel = a.releases.find((r) => r.key === "gta6");
   return (
-    <section className="answer panel" id="answer" aria-labelledby="answer-title">
-      <div className="answer-top">
+    <section className="answer" id="answer" aria-labelledby="answer-title">
+      <div className="band-dark answer-band">
+      <div className="wrap answer-top">
         <div className="answer-say">
           {gtaRel && <p className="answer-q">Should you move your launch away from GTA VI?</p>}
           <h1 id="answer-title" className={`answer-a tone-${ans.tone}`} tabIndex={-1}>
@@ -65,8 +66,10 @@ export default function Answer({ analysis, onShowWeek }: { analysis: Analysis; o
           </div>
         )}
       </div>
+      </div>
 
-      <div className="answer-weeks">
+      <div className="band-work answer-weeks-band">
+      <div className="wrap answer-weeks">
         <div className="wlist">
           <h2 className="wlist-h">
             <span className="wlist-mark is-pick" aria-hidden="true" /> Best weeks to launch
@@ -88,6 +91,7 @@ export default function Answer({ analysis, onShowWeek }: { analysis: Analysis; o
           </ul>
           <p className="wlist-foot small muted">Weeks start on Monday. Dates are North American launch days.</p>
         </div>
+      </div>
       </div>
     </section>
   );

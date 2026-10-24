@@ -9,7 +9,7 @@ export default function HowToRead({ rule, calendarUpdated }: { rule: RuleConfig;
       <div className="sec-head">
         <h2 id="how-to-read-title">How to read this</h2>
       </div>
-      <div className="read panel">
+      <div className="read">
         <div className="read-score">
           <h3>Player overlap, from 0 to 1</h3>
           <p>

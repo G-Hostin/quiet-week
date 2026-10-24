@@ -2,8 +2,28 @@
   Quiet Week design tokens.
   One rule carries the interface: cobalt (--accent) marks everything you can click or select, and nothing else.
   Red, yellow, green and grey are reserved for the data (player overlap). Information surfaces stay flat.
+
+  Three levels of emphasis, shown by full-width section bands:
+  1. .band-dark  anchor: deep navy, two or three times per page (landing hero, the answer, the final call to action).
+  2. .band-work  white: the sections you work with (how it works, examples, week by week, the tool step).
+  3. .band-ref   recessed grey, smaller headings: reference (how to read this, sources & method, footer).
+  A dark band redefines the colour tokens below, so every component keeps the same rules on it:
+  cobalt stays the only action colour (a lighter tint of it), data colours get lighter text tints.
 */
 :root {
+  --anchor: #10142a;
+  --recess: #ebedf1;
+
+  --radius: 14px;
+  --radius-sm: 9px;
+  --page: 1140px;
+  --pad: clamp(16px, 4vw, 32px);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Light colour tokens. Also restored inside a dark band for the landing figure, which stays light on purpose. */
+:root,
+.band-dark .fig {
   --bg: #f1f2f5;
   --bg-deep: #e8eaef;
   --surface: #ffffff;
@@ -17,6 +37,9 @@
   --accent-hover: #2139b4;
   --accent-soft: #eaeefd;
   --accent-line: #b6c3f4;
+  --btn-fill: #2d4bd8;
+  --btn-fill-hover: #2139b4;
+  --btn-quiet-bg: #ffffff;
 
   --clash: #d5432f;
   --overlap: #e5a01a;
@@ -29,12 +52,65 @@
   --clash-text: #b23420;
   --overlap-text: #865800;
   --clear-text: #1b744b;
+}
 
-  --radius: 14px;
-  --radius-sm: 9px;
-  --page: 1140px;
-  --pad: clamp(16px, 4vw, 32px);
-  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+/*
+  Dark anchor band. Contrast on #10142a: text 17:1, secondary 11.7:1, muted 7.7:1, links 9.4:1,
+  data text tints 8 to 10.8:1; white on the filled button 5.3:1, button edge against the band 3.4:1.
+*/
+.band-dark {
+  --surface: #181e3c;
+  --bg: rgba(255, 255, 255, 0.06);
+  --bg-deep: rgba(255, 255, 255, 0.1);
+  --ink: #f5f7fc;
+  --ink-2: #c9cfe2;
+  --muted: #a0a8c3;
+  --line: rgba(255, 255, 255, 0.2);
+  --line-soft: rgba(255, 255, 255, 0.11);
+
+  --accent: #a8b7ff;
+  --accent-hover: #cdd6ff;
+  --accent-soft: rgba(168, 183, 255, 0.14);
+  --accent-line: #7b8fff;
+  --btn-fill: #3d5cf0;
+  --btn-fill-hover: #4a66f2;
+  --btn-quiet-bg: transparent;
+
+  --clash-soft: rgba(213, 67, 47, 0.24);
+  --overlap-soft: rgba(229, 160, 26, 0.22);
+  --clear-soft: rgba(46, 154, 104, 0.24);
+  --open-soft: rgba(255, 255, 255, 0.08);
+  --clash-text: #ff8b76;
+  --overlap-text: #f3c04f;
+  --clear-text: #5fd49d;
+
+  background: var(--anchor);
+  color: var(--ink);
+}
+
+.band-dark ::selection {
+  background: #3d5cf0;
+  color: #fff;
+}
+
+.band-dark .fig {
+  color: var(--ink);
+}
+
+.band-work {
+  background: var(--surface);
+}
+
+/* Recessed reference band: inset blocks turn white, hairlines get a touch darker to stay visible on grey. */
+.band-ref {
+  --bg: #ffffff;
+  --line: #cdd2db;
+  --line-soft: #d9dde4;
+  background: var(--recess);
+}
+
+.band {
+  padding-block: clamp(48px, 7vw, 88px);
 }
 
 * {
@@ -61,7 +137,7 @@ html {
 
 body {
   margin: 0;
-  background: var(--bg);
+  background: var(--recess);
   color: var(--ink);
   font-family: var(--font-sans), system-ui, sans-serif;
   font-size: 16px;
@@ -179,7 +255,7 @@ ol {
   z-index: 60;
   padding: 10px 14px;
   border-radius: var(--radius-sm);
-  background: var(--accent);
+  background: var(--btn-fill);
   color: #fff;
   font-weight: 600;
 }
@@ -189,10 +265,15 @@ ol {
   color: #fff;
 }
 
-/* Site header */
+/* Site header. On the landing page it joins the dark hero band. */
 .site-head {
   background: var(--surface);
   border-bottom: 1px solid var(--line-soft);
+}
+
+.site-head.band-dark {
+  background: var(--anchor);
+  border-bottom-color: transparent;
 }
 
 .site-head-in {
@@ -286,8 +367,8 @@ ol {
   min-height: 46px;
   padding: 0 20px;
   border-radius: 999px;
-  border: 1.5px solid var(--accent);
-  background: var(--accent);
+  border: 1.5px solid var(--btn-fill);
+  background: var(--btn-fill);
   color: #fff;
   font-weight: 650;
   line-height: 1.2;
@@ -298,8 +379,8 @@ ol {
 }
 
 .btn:hover {
-  background: var(--accent-hover);
-  border-color: var(--accent-hover);
+  background: var(--btn-fill-hover);
+  border-color: var(--btn-fill-hover);
   color: #fff;
 }
 
@@ -314,7 +395,7 @@ ol {
 }
 
 .btn-quiet {
-  background: var(--surface);
+  background: var(--btn-quiet-bg);
   color: var(--accent);
   border-color: var(--accent-line);
 }
@@ -326,7 +407,7 @@ ol {
 }
 
 .btn-quiet:disabled:hover {
-  background: var(--surface);
+  background: var(--btn-quiet-bg);
   border-color: var(--accent-line);
 }
 
@@ -334,6 +415,12 @@ ol {
   min-height: 38px;
   padding: 0 15px;
   font-size: 0.92rem;
+}
+
+.btn-lg {
+  min-height: 54px;
+  padding: 0 28px;
+  font-size: 1.05rem;
 }
 
 .btn svg {
@@ -418,11 +505,10 @@ ol {
   color: var(--ink);
 }
 
-/* Footer */
+/* Footer: on the recessed grey, after the last band */
 .foot {
-  margin-top: 96px;
-  padding: 28px 0 44px;
-  border-top: 1px solid var(--line);
+  padding: 32px 0 48px;
+  background: var(--recess);
   color: var(--muted);
   font-size: 0.875rem;
 }

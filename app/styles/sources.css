@@ -1,6 +1,5 @@
-/* Sources & method */
+/* Sources & method (reference band: no card, the record opens in place) */
 .src {
-  padding: clamp(16px, 2.6vw, 26px);
   display: grid;
   gap: 18px;
 }
@@ -25,7 +24,7 @@
 
 .src-facts dd {
   margin: 0;
-  font-size: 1.35rem;
+  font-size: 1.2rem;
   font-weight: 800;
   letter-spacing: -0.02em;
 }

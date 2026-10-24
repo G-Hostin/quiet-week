@@ -14,7 +14,7 @@ export function Mark() {
 /** Site header. On the landing page it links to its sections; in the tool it links back home. */
 export default function SiteHeader({ page }: { page: "home" | "check" }) {
   return (
-    <header className="site-head">
+    <header className={`site-head ${page === "home" ? "band-dark" : ""}`}>
       <a className="skip" href="#main">Skip to content</a>
       <div className="wrap site-head-in">
         <Link className="wordmark" href="/" aria-label="Quiet Week, home">

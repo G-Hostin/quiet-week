@@ -191,7 +191,7 @@ export default function CheckApp(props: { initial: View; steamEvents: SteamEvent
 
   const stepIndex = phase === "game" || phase === "resolving" ? 0 : phase === "confirm" ? 1 : 2;
   return (
-    <main id="main" className="tool">
+    <main id="main" className="tool band-work">
       <div className="wrap">
         <div className="tool-head">
           <h1>Check your launch window</h1>

@@ -1,3 +1,4 @@
+import type { Viewport } from "next";
 import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
 import Footer from "@/components/Footer";
@@ -6,6 +7,9 @@ import ExampleCards from "@/components/ExampleCards";
 import { ArrowRight } from "@/components/Icons";
 import { RELEASE_DATA } from "@/lib/data";
 import { EXAMPLE_ANALYSES } from "@/lib/examples";
+
+// The landing page opens on the dark band, so the mobile browser bar matches it.
+export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#10142a" };
 
 export default function Home() {
   const western = EXAMPLE_ANALYSES.find((e) => e.id === "action-western") ?? EXAMPLE_ANALYSES[0];
@@ -16,7 +20,7 @@ export default function Home() {
     <>
       <SiteHeader page="home" />
       <main id="main">
-        <section className="hero">
+        <section className="hero band-dark">
           <div className="wrap hero-grid">
             <div className="hero-copy">
               <h1>Find a quiet week to launch your indie game.</h1>
@@ -39,7 +43,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="home-sec" id="how" aria-labelledby="how-title">
+        <section className="home-sec band band-work" id="how" aria-labelledby="how-title">
           <div className="wrap">
             <div className="sec-head">
               <h2 id="how-title">How it works</h2>
@@ -74,7 +78,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="home-sec" id="examples" aria-labelledby="examples-title">
+        <section className="home-sec band band-work" id="examples" aria-labelledby="examples-title">
           <div className="wrap">
             <div className="sec-head">
               <h2 id="examples-title">Try a ready-made example</h2>
@@ -84,17 +88,15 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="home-sec" aria-labelledby="end-title">
-          <div className="wrap">
-            <div className="home-end panel">
-              <div>
-                <h2 id="end-title">Ready to check your own game?</h2>
-                <p className="muted">You only need the names of a few games your players love.</p>
-              </div>
-              <Link className="btn" href="/check">
-                Check my launch window <ArrowRight size={16} />
-              </Link>
+        <section className="home-sec band band-dark" aria-labelledby="end-title">
+          <div className="wrap home-end">
+            <div>
+              <h2 id="end-title">Ready to check your own game?</h2>
+              <p className="home-end-p">You only need the names of a few games your players love.</p>
             </div>
+            <Link className="btn btn-lg" href="/check">
+              Check my launch window <ArrowRight size={16} />
+            </Link>
           </div>
         </section>
       </main>

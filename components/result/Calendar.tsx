@@ -92,7 +92,7 @@ export default function Calendar(props: {
           One bar per week. The taller and redder the bar, the more that week&apos;s biggest release shares your players.
         </p>
       </div>
-      <div className="cal panel">
+      <div className="cal">
         <p className="cal-how">
           <Tap size={18} />
           <span>

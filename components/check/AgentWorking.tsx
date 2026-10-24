@@ -24,7 +24,7 @@ export default function AgentWorking({ kind, steps }: { kind: "resolve" | "analy
   // The current phase is the furthest reached; until the first step arrives, the first one is in progress.
   const current = Math.max(0, reached);
   return (
-    <div className="stage panel working" aria-busy="true" aria-labelledby="step-title">
+    <div className="stage working" aria-busy="true" aria-labelledby="step-title">
       <div className="stage-head">
         <h2 id="step-title" tabIndex={-1}>
           {kind === "resolve" ? "Finding your games in Qloo" : "Measuring your launch window"}
