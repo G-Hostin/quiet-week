@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { answerFor, answerLede, defaultWeek, listNames, ordinal, phaseReached, viewFrom, weekReason } from "../lib/present";
+import { answerFor, answerLede, defaultWeek, friendlyError, listNames, ordinal, phaseReached, viewFrom, weekReason } from "../lib/present";
 import cozy from "../data/examples/cozy-farm.json";
 import western from "../data/examples/action-western.json";
 import metroid from "../data/examples/metroidvania.json";
@@ -95,5 +95,27 @@ describe("default week and view", () => {
     expect(listNames(["A"])).toBe("A");
     expect(listNames(["A", "B"])).toBe("A and B");
     expect(listNames(["A", "B", "C"])).toBe("A, B and C");
+  });
+});
+
+describe("error messages a visitor can act on", () => {
+  it("never shows raw browser or server wording", () => {
+    for (const raw of ["Failed to fetch", "Request failed (HTTP 500)", "Gemini gemini-3.5-flash answered HTTP 503", "Load failed"]) {
+      const msg = friendlyError(raw, "analyze");
+      expect(msg).not.toMatch(/fetch|HTTP|Gemini|gemini/);
+      expect(msg).toMatch(/try again/i);
+    }
+  });
+
+  it("says busy for rate limits and budget, connection for network errors", () => {
+    expect(friendlyError("Too many requests. Try again in a few minutes.", "resolve")).toMatch(/busy/);
+    expect(friendlyError("Qloo call budget reached", "analyze")).toMatch(/busy/);
+    expect(friendlyError("Failed to fetch", "resolve")).toMatch(/connection/);
+  });
+
+  it("names the stage that failed and keeps the server's own input checks", () => {
+    expect(friendlyError("boom", "resolve")).toMatch(/searching Qloo/);
+    expect(friendlyError("boom", "analyze")).toMatch(/measuring your weeks/);
+    expect(friendlyError("Give 1 to 3 game titles.", "resolve")).toBe("Give 1 to 3 game titles.");
   });
 });

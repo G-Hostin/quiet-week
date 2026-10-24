@@ -126,7 +126,7 @@ export default function StepGame(props: {
         <button className="btn" type="submit">
           Find these games in Qloo <ArrowRight size={16} />
         </button>
-        <p className="hint">Usually 5 to 20 seconds. You confirm the matches before anything is measured.</p>
+        <p className="hint">Usually 5 to 30 seconds. You confirm the matches before anything is measured.</p>
       </div>
     </form>
   );

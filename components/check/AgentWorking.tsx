@@ -31,8 +31,8 @@ export default function AgentWorking({ kind, steps }: { kind: "resolve" | "analy
         </h2>
         <p>
           {kind === "resolve"
-            ? "An AI agent is searching Qloo for the games you named. Usually 5 to 20 seconds."
-            : "The agent is scoring every big release in your window against your players. Usually 15 to 30 seconds."}
+            ? "An AI agent is searching Qloo for the games you named. Usually 5 to 30 seconds."
+            : "The agent is scoring every big release in your window against your players. Usually 15 to 60 seconds."}
         </p>
       </div>
       <ol className="phases">

@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { lastDayOfMonth } from "@/lib/dates";
 import { EXAMPLE_ANALYSES } from "@/lib/examples";
-import { viewFrom, type View } from "@/lib/present";
+import { friendlyError, viewFrom, type View } from "@/lib/present";
 import type { SearchHit } from "@/lib/qloo-ops";
 import { postStream } from "@/lib/stream";
 import type { Analysis, AudienceGame, Step, SteamEvent } from "@/lib/types";
@@ -23,11 +23,6 @@ function urlFor(v: View): string {
   if (v.kind === "example") return `/check?example=${v.id}`;
   if (v.kind === "mine") return "/check?result=mine";
   return "/check";
-}
-
-/** Error text without its final full stop, so a hint can follow it. */
-function clean(msg: string): string {
-  return (msg || "Something went wrong").trim().replace(/[.!]+$/, "");
 }
 
 function readStored(): Analysis | null {
@@ -112,7 +107,7 @@ export default function CheckApp(props: { initial: View; steamEvents: SteamEvent
         }
       });
     } catch (err) {
-      setError(`${clean((err as Error).message)}. Check the game names and try again.`);
+      setError(friendlyError((err as Error).message, "resolve"));
       setPhase("game");
     }
   }
@@ -149,7 +144,7 @@ export default function CheckApp(props: { initial: View; steamEvents: SteamEvent
         },
       );
     } catch (err) {
-      setError(`${clean((err as Error).message)}. Try again in a moment.`);
+      setError(friendlyError((err as Error).message, "analyze"));
       setPhase("confirm");
     }
   }

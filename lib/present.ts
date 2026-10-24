@@ -113,6 +113,20 @@ export function phaseReached(steps: { kind: StepKind }[], phases: StepKind[][]):
   return best;
 }
 
+/**
+ * Plain-English error for the tool, with one hint that fits the cause.
+ * Raw server or browser messages ("Failed to fetch", "HTTP 500", model names) never reach the visitor.
+ */
+export function friendlyError(raw: string, stage: "resolve" | "analyze"): string {
+  const m = (raw || "").toLowerCase();
+  if (/too many requests|\b429\b|budget/.test(m)) return "Quiet Week is busy right now. Wait a minute, then try again.";
+  if (/failed to fetch|networkerror|load failed|network|internet/.test(m)) return "The connection dropped. Check your internet, then try again.";
+  if (/^(give 1 to 3|confirm 1 to 3|send json)/.test(m)) return raw.trim();
+  return stage === "resolve"
+    ? "Something went wrong while searching Qloo. Try again in a moment."
+    : "Something went wrong while measuring your weeks. Try again in a moment.";
+}
+
 /** "1st", "2nd", "18th", "22nd". */
 export function ordinal(n: number): string {
   const t = n % 100;
